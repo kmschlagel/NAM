@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+	<title>Insert a highlight</title>
+	<link rel="stylesheet" type="text/css" href="../modal.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript">
+		var icf_shortcode = {
+	e: '',
+	init: function(e) {
+		icf_shortcode.e = e;
+		tinyMCEPopup.resizeToInnerSize();
+		var selected = icf_shortcode.e.selection.getContent();
+		$('#highlightContent').val(selected);	
+	},
+	insert: function createShortcode(e) {
+
+		var content = $('#highlightContent').val();
+		var color = $('#highlightColor').val();
+		var hexcolor = $('#highlightHexColor').val();
+
+		if (hexcolor != '') { color = '#'+hexcolor; }
+	
+		var output = '<span class="highlight" style="background-color: ';
+			output += color;
+			output += '">'+content+'</span>';
+
+		tinyMCEPopup.execCommand('mceReplaceContent', false, output);
+		
+		tinyMCEPopup.close();
+		
+	}
+}
+tinyMCEPopup.onInit.add(icf_shortcode.init, icf_shortcode);
+	</script>
+</head>
+<body>
+<form id="highlight-shortcode">
+
+        <div class="tabs">
+            <ul>
+                <li id="highlightTab" class="current"><span><a>Highlight</a></span></li>
+            </ul>
+        </div>
+
+<div class="panel_wrapper">
+	<div class="panel current">
+
+	<fieldset>
+		<legend>Highlighted text:</legend>
+		<label for="highlightContent"></label>
+		<input id="highlightContent" type="text" value="" />
+	</fieldset>
+	
+	<fieldset>
+		<legend>Highlight Color:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="highlightColor"></label>
+		<select id="highlightColor" style="width: 130px">
+			<option value="aqua">Aqua</option>
+			<option value="black">Black</option>
+			<option value="blue">Blue</option>
+			<option value="fuchsia">Fuschia</option>
+			<option value="grey">Grey</option>
+			<option value="green">Green</option>
+			<option value="lime">Lime</option>
+			<option value="maroon">Maroon</option>
+			<option value="navy">Navy</option>
+			<option value="olive">Olive</option>
+			<option value="purple">Purple</option>
+			<option value="red">Red</option>
+			<option value="silver">Silver</option>
+			<option value="teal">Teal</option>
+			<option value="yellow">Yellow</option>
+		</select>
+		</p>
+		<p style="float: left;">
+			<label for="highlightHexColor"></label>
+			or #<input id="highlightHexColor" type="text" value="" style="width: 130px" /><br />
+			<em>Overrides the above color setting if not blank.</em>
+		</p>
+	</fieldset>
+	
+	</div>
+</div>
+	
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="cancel" name="cancel" value="Close" onclick="tinyMCEPopup.close(); return false;" />
+		</div>
+
+		<div style="float: right">
+			<input type="submit" id="insert" name="insert" value="Insert" onclick="icf_shortcode.insert(icf_shortcode.e); return false;" />
+		</div>
+	</div>
+	
+	
+</form>
+</body>
+</html>

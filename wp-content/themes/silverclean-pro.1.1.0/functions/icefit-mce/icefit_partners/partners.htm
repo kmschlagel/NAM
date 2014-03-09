@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+	<title>Insert Partners/Clients</title>
+	<link rel="stylesheet" type="text/css" href="../modal.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript">
+		var icf_shortcode = {
+	e: '',
+	init: function(e) {
+		icf_shortcode.e = e;
+		tinyMCEPopup.resizeToInnerSize();
+		var selected = icf_shortcode.e.selection.getContent();
+        if( (temp = selected.match(/(title)=["](.*?)["]+/i)) != null ) jQuery('#partnersTitle').val(temp[2]);
+        if( (temp = selected.match(/(col)=["'](.*?)["']+/i)) != null ) jQuery('#partnersCol').val(temp[2]);
+        if( (temp = selected.match(/(cat)=["'](.*?)["']+/i)) != null ) jQuery('#partnersCat').val(temp[2]);
+        if( (temp = selected.match(/(auto)=["'](.*?)["']+/i)) != null ) jQuery('#partnersAuto').val(temp[2]);
+	},
+	insert: function createShortcode(e) {
+
+		var title = $('#partnersTitle').val();
+		var col = $('#partnersCol').val();
+		var cat = $('#partnersCat').val();
+		var auto = $('#partnersAuto').val();
+
+		var output = '[partners title="'+title+'" col="'+col+'" cat="'+cat+'" auto="'+auto+'"]';
+
+		tinyMCEPopup.execCommand('mceReplaceContent', false, output);
+		
+		tinyMCEPopup.close();
+		
+	}
+}
+tinyMCEPopup.onInit.add(icf_shortcode.init, icf_shortcode);
+	</script>
+</head>
+<body>
+<form id="partners-shortcode">
+
+        <div class="tabs">
+            <ul>
+                <li id="partnersTab" class="current"><span><a>Partners/Clients</a></span></li>
+            </ul>
+        </div>
+
+<div class="panel_wrapper">
+	<div class="panel current">
+
+	<fieldset>
+		<legend>Title:</legend>
+		<label for="partnersTitle"></label>
+		<input type="text" id="partnersTitle" style="width: 230px" />
+	</fieldset>
+	
+	<fieldset>
+		<legend>Column:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="partnersCol"></label>
+		<select id="partnersCol" style="width: 130px">
+			<option value="one-fourth">one-fourth</option>
+			<option value="one-third">one-third</option>
+			<option value="one-half">one-half</option>
+			<option value="two-thirds">two-thirds</option>
+			<option value="three-fourths">three-fourths</option>
+			<option value="full-width">full-width</option>			
+		</select>
+		</p>
+	</fieldset>
+
+	<fieldset>
+		<legend>Category Filter:</legend>
+		<label for="partnersCat"></label>
+		<input type="text" id="partnersCat" value="all" style="width: 230px" />
+		<em>Enter a category slug, or "all" to display all partners/clients entries.</em>
+	</fieldset>
+
+	<fieldset>
+		<legend>Auto slide:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="partnersAuto"></label>
+		<select id="partnersAuto" style="width: 130px">
+			<option value="false">No</option>
+			<option value="true">Yes</option>
+		</select>
+		</p>
+	</fieldset>
+
+	</div>
+</div>
+	
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="cancel" name="cancel" value="Close" onclick="tinyMCEPopup.close(); return false;" />
+		</div>
+
+		<div style="float: right">
+			<input type="submit" id="insert" name="insert" value="Insert" onclick="icf_shortcode.insert(icf_shortcode.e); return false;" />
+		</div>
+	</div>
+	
+	
+</form>
+</body>
+</html>

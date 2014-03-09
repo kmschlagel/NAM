@@ -1,0 +1,72 @@
+SilverClean Pro WordPress Theme by Iceable Themes | http://www.iceablethemes.com
+Copyright 2013 Mathieu Sarrasin - Iceable Media
+Changelog
+
+===
+
+Date: 2013-10-14
+Version: 1.1.0
+Basename: silverclean-pro.1.1.0
+
+* UPDATED: Flexslider from 1.8 to 2.2
+* UPDATED: Content width defined dynamically depending on the template being used
+* UPDATED: Clean hook for wp_title (better compatibility with SEO plugins)
+* UPDATED: CSS enqueuing now supports child-themes
+* UPDATED: Webfonts loading now supports SSL (https)
+* UPDATED: <head> code cleanup
+* UPDATED: Improved excerpt handling
+* UPDATED: Overall code cleanup and enhancements
+* UPDATED: 404.php template
+* UPDATED: Slider available on all pages
+* UPDATED: .POT file for gettext translation
+* REMOVED: unused function icefit_short_excerpt
+* FIXED: Portfolio grid with sidebar
+* FIXED: Removed Edit div on portfolio single pages for non-logged in users
+* FIXED: Show title on/off switch for portfolio page
+* FIXED: Images in theme options reverting back to default when removed
+* FIXED: Occasional permalink issue redirecting post links to homepage
+* FIXED: Archive page template (Yearly, Monthly and Daily archives)
+* FIXED: Partners shortcode and widget now pull all selected entries
+* FIXED: Hardcoded lat/lng values in Google Maps shortcode when used with GPS coordinates
+* FIXED: Support for maps inside columns
+* FIXED: Tabs compatibility with any title (special chars, accented chars, non-latin, duplicates etc.)
+* FIXED: ol/ul li formatting
+* ENHANCED: Dynamic CSS and JS now injected inline (no longer reloading WP core: greatly improved page-speed)
+* ENHANCED: Overall code review, enhancements and optimizations (reduced server load and improved page-speed)
+* ENHANCED: Merged and compressed CSS and JS
+* ENHANCED: Translation support via gettext (.po/.mo files), including for the backend (especially the Theme Options page) and multi-languages sites based on plugins like qTranlate
+* ENHANCED: Flushing permalink structure on activation
+* ENHANCED: Gallery display in responsive mode
+* ENHANCED: Partners/Clients: links now open in a new tab or window (target="_blank")
+* ENHANCED: Empty search result page is more explicit
+* ENHANCED: Support for columns in tabs, content-slider, toggles and accordions
+* ENHANCED: Blogposts and Portfolio shortcode: option to limit number of posts
+* ENHANCED: Content slider now based on caroufredsel
+* ENHANCED: More flexible implementation of carousels, fixing occasional issues and allowing auto slide
+* ENHANCED: Consolidated some images set into sprites and optimized all images
+* ADDED: Automatic update check and notice
+* ADDED: Admin notice when no primary menu is set
+* ADDED: A huge set of new settings in Theme options
+* ADDED: Import/Export theme options settings
+* ADDED: Lightbox on all linked images
+* ADDED: Conditional display of comment navigation links
+* ADDED: 3 or 4 columns option for footer widgets
+* ADDED: Addtional footer widget groups and footer selector for pages
+* ADDED: Global 404 redirect options
+* ADDED: Custom Header code (to be added before </head> )
+* ADDED: Slider settings
+* ADDED: Sticky header/navbar options
+* ADDED: Child theme support
+* ADDED: Option Index to quickly locate all available settings
+* ADDED: Option to disable the page title for the blog index page
+* ADDED: Portfolio page: Option to display page content above or below portfolio grid
+* ADDED: Single portfolio entries options: sidebar / show/hide meta and related projects / customize slug
+* ADDED: Support for featured images in pages
+* ADDED: Icefit Improved Excerpt: Check whether the required php extension is enabled (shows a warning in theme options otherwise) - set excerpt lenghts - set what tags to preserve
+* ADDED: Option to hide featured image in single posts
+* ADDED: Body content font and font size options
+* ADDED: CSS Support for figure and figcaption tags
+* ADDED: Social Media icons widget
+* ADDED: Tagline / Social Media / custom HTML options for header
+* ADDED: Option to disable responsive mode
+* TESTED: With WordPress 3.6.1
