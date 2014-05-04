@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+	<title>Insert Blogposts</title>
+	<link rel="stylesheet" type="text/css" href="../modal.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript">
+		var icf_shortcode = {
+	e: '',
+	init: function(e) {
+		icf_shortcode.e = e;
+		tinyMCEPopup.resizeToInnerSize();
+		var selected = icf_shortcode.e.selection.getContent();
+        if( (temp = selected.match(/(title)=["](.*?)["]+/i)) != null ) jQuery('#blogpostsTitle').val(temp[2]);
+        if( (temp = selected.match(/(col)=["'](.*?)["']+/i)) != null ) jQuery('#blogpostsCol').val(temp[2]);
+        if( (temp = selected.match(/(cat)=["'](.*?)["']+/i)) != null ) jQuery('#blogpostsCat').val(temp[2]);
+        if( (temp = selected.match(/(maxitems)=["'](.*?)["']+/i)) != null ) jQuery('#blogpostsMax').val(temp[2]);
+        if( (temp = selected.match(/(mode)=["'](.*?)["']+/i)) != null ) jQuery('#blogpostsMode').val(temp[2]);
+        if( (temp = selected.match(/(auto)=["'](.*?)["']+/i)) != null ) jQuery('#blogpostsAuto').val(temp[2]);
+	},
+	insert: function createShortcode(e) {
+
+		var title = $('#blogpostsTitle').val();
+		var col = $('#blogpostsCol').val();
+		var cat = $('#blogpostsCat').val();
+		var maxitems = $('#blogpostsMax').val();
+		var mode = $('#blogpostsMode').val();
+		var auto = $('#blogpostsAuto').val();
+	
+		var output = '[blogposts title="'+title+'" col="'+col+'" cat="'+cat+'" maxitems="'+maxitems+'" mode="'+mode+'" auto="'+auto+'"]';
+
+		tinyMCEPopup.execCommand('mceReplaceContent', false, output);
+		
+		tinyMCEPopup.close();
+		
+	}
+}
+tinyMCEPopup.onInit.add(icf_shortcode.init, icf_shortcode);
+	</script>
+</head>
+<body>
+<form id="blogposts-shortcode">
+
+<div class="panel_wrapper">
+	<div class="panel current">
+
+	<fieldset>
+		<legend>Title:</legend>
+		<label for="blogpostsTitle"></label>
+		<input type="text" id="blogpostsTitle" style="width: 230px" />
+	</fieldset>
+	
+	<fieldset>
+		<legend>Column:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="blogpostsCol"></label>
+		<select id="blogpostsCol" style="width: 130px">
+			<option value="one-fourth">one-fourth</option>
+			<option value="one-third">one-third</option>
+			<option value="one-half">one-half</option>
+			<option value="two-thirds">two-thirds</option>
+			<option value="three-fourths">three-fourths</option>
+			<option value="full-width">full-width</option>			
+		</select>
+		</p>
+	</fieldset>
+
+	<fieldset>
+		<legend>Category Filter:</legend>
+		<label for="blogpostsCat"></label>
+		<input type="text" id="blogpostsCat" value="all" style="width: 230px" />
+		<em>Enter a category slug, or "all" to display everything.</em>
+	</fieldset>
+
+	<fieldset>
+		<legend>Maximum number of items:</legend>
+		<label for="blogpostsMax"></label>
+		<input type="text" id="blogpostsMax" value="10" style="width: 230px" />
+		<em>Limit the number of posts to show, or enter 0 to show all available posts.</em>
+	</fieldset>
+
+	<fieldset>
+		<legend>Mode:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="blogpostsMode"></label>
+		<select id="blogpostsMode" style="width: 130px">
+			<option value="carousel">Carousel</option>
+			<option value="grid">Grid</option>
+			<option value="grid-excerpts">Grid with excerpts</option>
+		</select>
+		</p>
+	</fieldset>
+
+	<fieldset>
+		<legend>Auto slide (carousel mode):</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="blogpostsAuto"></label>
+		<select id="blogpostsAuto" style="width: 130px">
+			<option value="false">No</option>
+			<option value="true">Yes</option>
+		</select>
+		</p>
+	</fieldset>
+
+	</div>
+</div>
+	
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="cancel" name="cancel" value="Close" onclick="tinyMCEPopup.close(); return false;" />
+		</div>
+
+		<div style="float: right">
+			<input type="submit" id="insert" name="insert" value="Insert" onclick="icf_shortcode.insert(icf_shortcode.e); return false;" />
+		</div>
+	</div>
+	
+	
+</form>
+</body>
+</html>

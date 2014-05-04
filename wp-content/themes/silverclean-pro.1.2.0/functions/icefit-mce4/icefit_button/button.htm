@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+	<title>Insert a Button</title>
+	<link rel="stylesheet" type="text/css" href="../modal.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript">
+		var icf_shortcode = {
+	e: '',
+	init: function(e) {
+		icf_shortcode.e = e;
+		tinyMCEPopup.resizeToInnerSize();
+		var selected = icf_shortcode.e.selection.getContent();
+		$('#buttonText').val(selected);	
+	},
+	insert: function createShortcode(e) {
+
+		var size = $('#buttonSize').val();
+		var color = $('#buttonColor').val();
+		var text = $('#buttonText').val();
+		var link = $('#buttonLink').val();
+	
+		var output = '[button size="'+size+'" color="'+color+'" link="'+link+'"]'+text+'[/button]';
+
+		tinyMCEPopup.execCommand('mceReplaceContent', false, output);
+		
+		tinyMCEPopup.close();
+		
+	}
+}
+tinyMCEPopup.onInit.add(icf_shortcode.init, icf_shortcode);
+	</script>
+</head>
+<body>
+<form id="button-shortcode">
+
+<div class="panel_wrapper">
+	<div class="panel current">
+
+	<fieldset>
+		<legend>Button Size:</legend>
+		<label for="buttonSize"></label>
+		<select id="buttonSize" style="width: 230px">
+			<option value="small">Small</option>
+			<option value="medium" selected="selected">Medium</option>
+			<option value="big">Big</option>
+		</select>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Button Color:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="buttonColor"></label>
+		<select id="buttonColor" style="width: 130px">
+			<option value="default">Default</option>
+			<option value="black">Black</option>
+			<option value="blue">Blue</option>
+			<option value="red">Red</option>
+			<option value="green">Green</option>
+		</select>
+		</p>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Button Text:</legend>
+		<label for="buttonText"></label>
+		<input type="text" id="buttonText" style="width: 230px">
+	</fieldset>
+
+	<fieldset>
+		<legend>Button Link:</legend>
+		<label for="buttonLink"></label>
+		<input type="text" id="buttonLink" style="width: 230px">
+	</fieldset>
+
+	</div>
+</div>
+	
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="cancel" name="cancel" value="Close" onclick="tinyMCEPopup.close(); return false;" />
+		</div>
+
+		<div style="float: right">
+			<input type="submit" id="insert" name="insert" value="Insert" onclick="icf_shortcode.insert(icf_shortcode.e); return false;" />
+		</div>
+	</div>
+	
+	
+</form>
+</body>
+</html>

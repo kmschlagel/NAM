@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+	<title>Insert Slider</title>
+	<link rel="stylesheet" type="text/css" href="../modal.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript">
+		var icf_shortcode = {
+	e: '',
+	init: function(e) {
+		icf_shortcode.e = e;
+		tinyMCEPopup.resizeToInnerSize();
+		var selected = icf_shortcode.e.selection.getContent();
+		if( (temp = selected.match(/(auto)=["'](.*?)["']+/i)) != null ) jQuery('#sliderAuto').val(temp[2]);
+	},
+	insert: function createShortcode(e) {
+
+		var titles = $('#slidersTitle').val();
+		var titles_arr = titles.split("|");
+		var auto = $('#sliderAuto').val();
+
+		var	output = '[sliders auto="'+auto+'"]<br />';
+		titles_arr.forEach(function(element, index, array){
+			output += '[slider title="'+element+'"]SLIDE '+element+' CONTENT[/slider]<br />';
+		});
+			output += '[/sliders]';
+
+		tinyMCEPopup.execCommand('mceReplaceContent', false, output);
+		
+		tinyMCEPopup.close();
+		
+	}
+}
+tinyMCEPopup.onInit.add(icf_shortcode.init, icf_shortcode);
+	</script>
+</head>
+<body>
+<form id="sliders-shortcode">
+
+        <div class="tabs">
+            <ul>
+                <li id="sliderstab" class="current"><span><a>Slider</a></span></li>
+            </ul>
+        </div>
+
+<div class="panel_wrapper">
+	<div class="panel current">
+
+	<fieldset>
+		<legend>Slides titles:</legend>
+		<label for="slidersTitle"></label>
+		<input type="text" id="slidersTitle" style="width: 230px">
+		<em>Separate titles with the | symbole (vertical line)</em>
+	</fieldset>
+
+	<fieldset>
+		<legend>Auto slide:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="sliderAuto"></label>
+		<select id="sliderAuto" style="width: 130px">
+			<option value="false">No</option>
+			<option value="true">Yes</option>
+		</select>
+		</p>
+	</fieldset>
+
+	</div>
+</div>
+	
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="cancel" name="cancel" value="Close" onclick="tinyMCEPopup.close(); return false;" />
+		</div>
+
+		<div style="float: right">
+			<input type="submit" id="insert" name="insert" value="Insert" onclick="icf_shortcode.insert(icf_shortcode.e); return false;" />
+		</div>
+	</div>
+	
+	
+</form>
+</body>
+</html>

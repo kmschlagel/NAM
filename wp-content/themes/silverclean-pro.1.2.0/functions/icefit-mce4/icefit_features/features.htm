@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+	<title>Insert Features</title>
+	<link rel="stylesheet" type="text/css" href="../modal.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript">
+		var icf_shortcode = {
+	e: '',
+	init: function(e) {
+		icf_shortcode.e = e;
+		tinyMCEPopup.resizeToInnerSize();
+		var selected = icf_shortcode.e.selection.getContent();
+        if( (temp = selected.match(/(title)=["](.*?)["]+/i)) != null ) jQuery('#featuresTitle').val(temp[2]);
+        if( (temp = selected.match(/(col)=["'](.*?)["']+/i)) != null ) jQuery('#featuresCol').val(temp[2]);
+        if( (temp = selected.match(/(cat)=["'](.*?)["']+/i)) != null ) jQuery('#featuresCat').val(temp[2]);
+        if( (temp = selected.match(/(items)=["'](.*?)["']+/i)) != null ) jQuery('#featuresCount').val(temp[2]);
+	},
+	insert: function createShortcode(e) {
+
+		var title = $('#featuresTitle').val();
+		var col = $('#featuresCol').val();
+		var cat = $('#featuresCat').val();
+		var count = $('#featuresCount').val();
+		
+		var output = '[features title="'+title+'" col="'+col+'" cat="'+cat+'" items="'+count+'"]';
+
+		tinyMCEPopup.execCommand('mceReplaceContent', false, output);
+		
+		tinyMCEPopup.close();
+		
+	}
+}
+tinyMCEPopup.onInit.add(icf_shortcode.init, icf_shortcode);
+	</script>
+</head>
+<body>
+<form id="features-shortcode">
+
+<div class="panel_wrapper">
+	<div class="panel current">
+
+	<fieldset>
+		<legend>Title:</legend>
+		<label for="featuresTitle"></label>
+		<input type="text" id="featuresTitle" style="width: 230px" />
+	</fieldset>
+
+	<fieldset>
+		<legend>Category Filter:</legend>
+		<label for="featuresCat"></label>
+		<input type="text" id="featuresCat" value="all" style="width: 230px" />
+		<em>Enter a category slug, or "all" to display all partners/clients entries.</em>
+	</fieldset>
+
+	<fieldset>
+		<legend>How many items:</legend>
+		<label for="featuresCount"></label>
+		<input type="text" id="featuresCount" style="width: 230px" value="all" />
+		<em>Enter a number to limit how many features to display, or "all" for no limit.</em>
+	</fieldset>
+
+	<fieldset>
+		<legend>Column:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="featuresCol"></label>
+		<select id="featuresCol" style="width: 130px">
+			<option value="one-fourth">One Fourth</option>
+			<option value="one-third">One Third</option>
+			<option value="one-half">One Half</option>
+			<option value="full-width">Full Width</option>
+		</select>
+		</p>
+	</fieldset>
+	
+	</div>
+</div>
+	
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="cancel" name="cancel" value="Close" onclick="tinyMCEPopup.close(); return false;" />
+		</div>
+
+		<div style="float: right">
+			<input type="submit" id="insert" name="insert" value="Insert" onclick="icf_shortcode.insert(icf_shortcode.e); return false;" />
+		</div>
+	</div>
+	
+	
+</form>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+	<title>Insert a dropcap</title>
+	<link rel="stylesheet" type="text/css" href="../modal.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript">
+		var icf_shortcode = {
+	e: '',
+	init: function(e) {
+		icf_shortcode.e = e;
+		tinyMCEPopup.resizeToInnerSize();
+		var selected = icf_shortcode.e.selection.getContent();
+		$('#DropcapContent').val(selected);	
+	},
+	insert: function createShortcode(e) {
+
+		var content = $('#DropcapContent').val();
+		var color = $('#DropcapColor').val();
+		var hexcolor = $('#DropcapHexColor').val();
+		var style = $('#DropcapStyle').val();
+
+		if (hexcolor != '') { color = '#'+hexcolor; }
+	
+		var output = '<span class="dropcap ';
+			output += style+'" style="background-color:';
+			output += color+'" ';
+			output += '>'+content+'</span>';
+
+		tinyMCEPopup.execCommand('mceReplaceContent', false, output);
+		
+		tinyMCEPopup.close();
+		
+	}
+}
+tinyMCEPopup.onInit.add(icf_shortcode.init, icf_shortcode);
+	</script>
+</head>
+<body>
+<form id="dropcap-shortcode">
+
+<div class="panel_wrapper">
+	<div class="panel current">
+
+	<fieldset>
+		<legend>Dropcap Content:</legend>
+		<label for="DropcapContent"></label>
+		<input id="DropcapContent" type="text" value="" />
+	</fieldset>
+	
+	<fieldset>
+		<legend>Dropcap Color:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="DropcapColor"></label>
+		<select id="DropcapColor" style="width: 130px">
+			<option value="aqua">Aqua</option>
+			<option value="black">Black</option>
+			<option value="blue">Blue</option>
+			<option value="fuchsia">Fuschia</option>
+			<option value="grey">Grey</option>
+			<option value="green">Green</option>
+			<option value="lime">Lime</option>
+			<option value="maroon">Maroon</option>
+			<option value="navy">Navy</option>
+			<option value="olive">Olive</option>
+			<option value="purple">Purple</option>
+			<option value="red">Red</option>
+			<option value="silver">Silver</option>
+			<option value="teal">Teal</option>
+			<option value="yellow">Yellow</option>
+		</select>
+		</p>
+		<p style="float: left;">
+			<label for="DropcapHexColor"></label>
+			or #<input id="DropcapHexColor" type="text" value="" style="width: 130px" /><br />
+			<em>Overrides the above color setting if not blank.</em>
+		</p>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Dropcap Style:</legend>
+		<label for="DropcapStyle"></label>
+		<select id="DropcapStyle" style="width: 230px">
+			<option value="square">Square</option>
+			<option value="rounded">Rounded</option>
+			<option value="disc">Disc</option>
+			<option value="leaf1">Leaf 1</option>
+			<option value="leaf2">Leaf 2</option>
+		</select>
+	</fieldset>
+	
+	</div>
+</div>
+	
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="cancel" name="cancel" value="Close" onclick="tinyMCEPopup.close(); return false;" />
+		</div>
+
+		<div style="float: right">
+			<input type="submit" id="insert" name="insert" value="Insert" onclick="icf_shortcode.insert(icf_shortcode.e); return false;" />
+		</div>
+	</div>
+	
+	
+</form>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+	<title>Insert Accordions</title>
+	<link rel="stylesheet" type="text/css" href="../modal.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript">
+		var icf_shortcode = {
+	e: '',
+	init: function(e) {
+		icf_shortcode.e = e;
+		tinyMCEPopup.resizeToInnerSize();
+		var selected = icf_shortcode.e.selection.getContent();
+	},
+	insert: function createShortcode(e) {
+
+		var titles = $('#accordionsTitle').val();
+
+		var titles_arr = titles.split("|");
+
+		var	output = '[accordions]<br />';
+		titles_arr.forEach(function(element, index, array){
+			output += '[accordion title="'+element+'"]ACCORDION '+element+' CONTENT[/accordion]<br />';
+		});
+			output += '[/accordions]';
+
+		tinyMCEPopup.execCommand('mceReplaceContent', false, output);
+		
+		tinyMCEPopup.close();
+		
+	}
+}
+tinyMCEPopup.onInit.add(icf_shortcode.init, icf_shortcode);
+	</script>
+</head>
+<body>
+<form id="accordions-shortcode">
+
+<div class="panel_wrapper">
+	<div class="panel current">
+
+	<fieldset>
+		<legend>Accordions titles:</legend>
+		<label for="accordionsTitle"></label>
+		<input type="text" id="accordionsTitle" style="width: 230px">
+		<em>Separate titles with the | symbole (vertical line)</em>
+	</fieldset>
+
+	</div>
+</div>
+	
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="cancel" name="cancel" value="Close" onclick="tinyMCEPopup.close(); return false;" />
+		</div>
+
+		<div style="float: right">
+			<input type="submit" id="insert" name="insert" value="Insert" onclick="icf_shortcode.insert(icf_shortcode.e); return false;" />
+		</div>
+	</div>
+	
+	
+</form>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+	<title>Insert Map</title>
+	<link rel="stylesheet" type="text/css" href="../modal.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript">
+		var icf_shortcode = {
+	e: '',
+	init: function(e) {
+		icf_shortcode.e = e;
+		tinyMCEPopup.resizeToInnerSize();
+		var selected = icf_shortcode.e.selection.getContent();
+        if( (temp = selected.match(/(title)=["](.*?)["]+/i)) != null ) jQuery('#mapsTitle').val(temp[2]);
+        if( (temp = selected.match(/(col)=["'](.*?)["']+/i)) != null ) jQuery('#mapsCol').val(temp[2]);
+        if( (temp = selected.match(/(height)=["'](.*?)["']+/i)) != null ) jQuery('#mapsHeight').val(temp[2]);
+        if( (temp = selected.match(/(type)=["'](.*?)["']+/i)) != null ) jQuery('#mapsType').val(temp[2]);
+        if( (temp = selected.match(/(zoom)=["'](.*?)["']+/i)) != null ) jQuery('#mapsZoom').val(temp[2]);
+        if( (temp = selected.match(/(address)=["](.*?)["]+/i)) != null ) jQuery('#mapsAddress').val(temp[2]);
+        if( (temp = selected.match(/(lat)=["'](.*?)["']+/i)) != null ) jQuery('#mapsLat').val(temp[2]);
+        if( (temp = selected.match(/(lng)=["'](.*?)["']+/i)) != null ) jQuery('#mapsLgn').val(temp[2]);
+        if( (temp = selected.match(/(controls)=["'](.*?)["']+/i)) != null ) jQuery('#mapsControls').val(temp[2]);
+	},
+	insert: function createShortcode(e) {
+
+		var title = $('#mapsTitle').val();
+		var address = $('#mapsAddress').val();
+		var lat = $('#mapsLat').val();
+		var lng = $('#mapsLgn').val();
+		var col = $('#mapsCol').val();
+		var height = $('#mapsHeight').val();
+		var zoom = $('#mapsZoom').val();
+		var type = $('#mapsType').val();
+		var controls = $('#mapsControls').val();
+
+		var output = '[maps title="'+title+'" col="'+col+'" height="'+height+'"';
+		output += ' type="'+type+'" zoom="'+zoom+'" address="'+address+'" lat="'+lat+'"';
+		output += ' lng="'+lng+'" controls="'+controls+'"]';
+		
+		tinyMCEPopup.execCommand('mceReplaceContent', false, output);
+		
+		tinyMCEPopup.close();
+		
+	}
+}
+tinyMCEPopup.onInit.add(icf_shortcode.init, icf_shortcode);
+	</script>
+</head>
+<body>
+<form id="maps-shortcode">
+
+<div class="panel_wrapper">
+	<div class="panel current">
+
+	<fieldset>
+		<legend>Title:</legend>
+		<label for="mapsTitle"></label>
+		<input type="text" id="mapsTitle" style="width: 230px" />
+		<em>Optional.</em>
+	</fieldset>
+
+	<fieldset>
+		<legend>Address:</legend>
+		<label for="mapsAddress"></label>
+		<input type="text" id="mapsAddress" style="width: 230px" />
+		<em>Will be sent to Google Maps API for geocoding.<br />
+		If the address is not correctly reflected on the map, try using GPS coordinates instead.</em>
+	</fieldset>
+
+	<fieldset>
+		<legend>GPS Coordinates:</legend>
+		<label for="mapsLat" style="width: 25px;">Lat:</label>
+		<input type="text" id="mapsLat" style="width: 230px" /><br />
+		<label for="mapsLgn" style="width: 25px;">Lng:</label>
+		<input type="text" id="mapsLgn" style="width: 230px" />
+		<em>Optional. Override the address entered above.</em>
+	</fieldset>
+
+	<fieldset>
+		<legend>Column:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="mapsCol"></label>
+		<select id="mapsCol" style="width: 130px">
+			<option value="one-fourth">One Fourth</option>
+			<option value="one-third">One Third</option>
+			<option value="one-half">One Half</option>
+			<option value="two-thirds">Two Thirds</option>
+			<option value="three-fourths">Three Fourths</option>
+			<option value="full-width" selected="selected">Full Width</option>
+		</select>
+		</p>
+	</fieldset>
+
+	<fieldset>
+		<legend>Height:</legend>
+		<label for="mapsHeight"></label>
+		<input type="text" id="mapsHeight" style="width: 230px" value="200" />
+		<em>Enter the height in px.</em>
+	</fieldset>
+
+	<fieldset>
+		<legend>Zoom:</legend>
+		<label for="mapsZoom"></label>
+		<input type="text" id="mapsZoom" style="width: 230px" value="15" />
+	</fieldset>
+
+	<fieldset>
+		<legend>Map type:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="mapsType"></label>
+		<select id="mapsType" style="width: 130px">
+			<option value="ROADMAP" selected="selected">Roadmap</option>
+			<option value="SATELLITE">Satellite</option>
+			<option value="HYBRID">Hybrid (Roadmap + Satellite)</option>
+			<option value="TERRAIN">Terrain</option>
+		</select>
+		</p>
+	</fieldset>
+
+	<fieldset>
+		<legend>Controls:</legend>
+		<p style="float: left; margin-right: 20px;">
+		<label for="mapsControls"></label>
+		<select id="mapsControls" style="width: 130px">
+			<option value="off" selected="selected">Off</option>
+			<option value="on">On</option>
+		</select>
+		</p>
+		<em>Controls are automatically removed if the map is too small for proper display, even if this is set to "On".</em>
+	</fieldset>
+	
+	</div>
+</div>
+	
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="cancel" name="cancel" value="Close" onclick="tinyMCEPopup.close(); return false;" />
+		</div>
+
+		<div style="float: right">
+			<input type="submit" id="insert" name="insert" value="Insert" onclick="icf_shortcode.insert(icf_shortcode.e); return false;" />
+		</div>
+	</div>
+	
+	
+</form>
+</body>
+</html>

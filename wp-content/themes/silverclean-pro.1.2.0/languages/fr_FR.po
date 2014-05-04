@@ -1,0 +1,2247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Silverclean Pro 1.2.0\n"
+"POT-Creation-Date: 2014-04-09 11:50+0100\n"
+"PO-Revision-Date: 2014-04-09 15:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid "404: Page Not Found"
+msgstr "404: Page Introuvable"
+
+#: ../404.php:19 ../index.php:148 ../index.php:155 ../page.php:96
+#: ../portfolio-page.php:122 ../single-icf_portfolio.php:87 ../single.php:127
+msgid "Not Found"
+msgstr "Introuvable"
+
+#: ../404.php:20 ../index.php:156 ../page.php:97 ../portfolio-page.php:123
+#: ../single-icf_portfolio.php:88 ../single.php:128
+msgid "What you are looking for isn't here..."
+msgstr "Ce que vous cherchiez n'est pas ici..."
+
+#: ../404.php:21
+msgid "Maybe a search will help ?"
+msgstr "Peut-être qu'une recherche vous aidera ?"
+
+#: ../404.php:26
+msgid "Monthly Archives"
+msgstr "Archives Mensuelles"
+
+#: ../404.php:28 ../functions/icefit-partners/icefit-partners.php:50
+#: ../functions/icefit-portfolio/icefit-portfolio.php:54
+#: ../functions/icefit-slides/icefit-slides.php:50
+msgid "All Categories"
+msgstr "Toutes les Catégories"
+
+#: ../404.php:33
+msgid "All Pages"
+msgstr "Toutes les Pages"
+
+#: ../comments.php:17
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Cet article est protégé par un mot de passe. Entrez le mot de passe pour "
+"voir les commentaires."
+
+#: ../comments.php:23
+#, php-format
+msgid "One Response to %2$s"
+msgstr "Une réponse à %2$s"
+
+#: ../comments.php:33
+msgid "Older comments"
+msgstr "Commentaires précédents"
+
+#: ../comments.php:36
+msgid "Newer comments"
+msgstr "Commentaires suivants"
+
+#: ../comments.php:45
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: ../functions.php:73
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: ../functions.php:365
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: ../functions.php:591 ../functions/icefit-options/settings.php:36
+#: ../functions/icefit-page-settings/icefit-page-settings.php:21
+msgid "Default Sidebar"
+msgstr "Sidebar par défaut"
+
+#: ../functions.php:603
+msgid "Footer"
+msgstr "Pied de page"
+
+#: ../index.php:71
+msgid "Search Results for "
+msgstr "Résultat de recherche pour "
+
+#: ../index.php:76
+msgid "Tag: "
+msgstr "Tag : "
+
+#: ../index.php:81
+msgid "Category: "
+msgstr "Catégorie : "
+
+#: ../index.php:86
+msgid "Daily archives: "
+msgstr "Archives journalières : "
+
+#: ../index.php:90
+msgid "Monthly archives: "
+msgstr "Archives mensuelles : "
+
+#: ../index.php:93
+msgid "Yearly archives: "
+msgstr "Archives annuelles : "
+
+#: ../index.php:127 ../single.php:81
+msgid "By "
+msgstr "Par "
+
+#: ../index.php:129 ../single.php:82
+msgid "In "
+msgstr "Dans "
+
+#: ../index.php:131 ../functions/icefit-blogposts/icefit-blogposts.php:137
+msgid "No Comment"
+msgstr "0 Commentaires"
+
+#: ../index.php:131 ../functions/icefit-blogposts/icefit-blogposts.php:137
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: ../index.php:131 ../functions/icefit-blogposts/icefit-blogposts.php:137
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: ../index.php:137 ../page.php:82 ../single-icf_portfolio.php:58
+#: ../single.php:84
+msgid "Edit"
+msgstr "Editer"
+
+#: ../index.php:149
+#, php-format
+msgid "Your search for \"%s\" did not return any result."
+msgstr "Votre recherche de \"%s\" n'a retourné aucun résultat."
+
+#: ../index.php:150
+msgid "Would you like to try another search ?"
+msgstr "Voulez-vous essayer une nouvelle recherche ?"
+
+#: ../index.php:165
+msgid "Previous Posts"
+msgstr "Articles précédents"
+
+#: ../index.php:168
+msgid "Next Posts"
+msgstr "Articles suivants"
+
+#: ../portfolio-page.php:80
+msgid "All"
+msgstr "Tout"
+
+#: ../sidebar.php:18 ../functions/icefit-blogposts/icefit-blogposts.php:68
+msgid "Recent Posts"
+msgstr "Articles récents"
+
+#: ../sidebar.php:23
+msgid "Archives"
+msgstr "Archives"
+
+#: ../sidebar.php:28
+msgid "Meta"
+msgstr "Meta"
+
+#: ../single.php:92
+msgid "Pages:"
+msgstr "Pages :"
+
+#: ../single.php:97
+msgid "Next page"
+msgstr "Page précédente"
+
+#: ../single.php:98
+msgid "Previous page"
+msgstr "Page suivante"
+
+#: ../single.php:116
+msgid "Next Post"
+msgstr "Articles suivants"
+
+#: ../single.php:119
+msgid "Previous Post"
+msgstr "Articles précédents"
+
+#: ../functions/icefit-blogposts/icefit-blogposts.php:62
+msgid ""
+"IceFit's improved version of the \"recent posts\" widget. Includes "
+"thumbnails and optional category filter."
+msgstr ""
+"Version améliorée du widget \"Articles récents\" avec images et option de "
+"filtrage par catégorie."
+
+#: ../functions/icefit-blogposts/icefit-blogposts.php:63
+msgid "IceFit Blog Posts"
+msgstr "IceFit Blog Posts"
+
+#: ../functions/icefit-blogposts/icefit-blogposts.php:77
+#: ../functions/icefit-contactform/icefit-contactform.php:68
+#: ../functions/icefit-contactinfo/icefit-contactinfo.php:32
+#: ../functions/icefit-features/icefit-features.php:46
+#: ../functions/icefit-features/icefit-features.php:247
+#: ../functions/icefit-partners/icefit-partners.php:76
+#: ../functions/icefit-partners/icefit-partners.php:273
+#: ../functions/icefit-portfolio/icefit-portfolio.php:80
+#: ../functions/icefit-portfolio/icefit-portfolio.php:329
+#: ../functions/icefit-slides/icefit-slides.php:76
+#: ../functions/icefit-socialmedia/icefit-socialmedia.php:30
+#: ../functions/icefit-testimonials/icefit-testimonials.php:46
+#: ../functions/icefit-testimonials/icefit-testimonials.php:273
+msgid "Title"
+msgstr "Titre"
+
+#: ../functions/icefit-blogposts/icefit-blogposts.php:81
+msgid "Number of posts"
+msgstr "Nombre d'articles"
+
+#: ../functions/icefit-blogposts/icefit-blogposts.php:85
+#: ../functions/icefit-partners/icefit-partners.php:79
+#: ../functions/icefit-partners/icefit-partners.php:277
+#: ../functions/icefit-portfolio/icefit-portfolio.php:83
+#: ../functions/icefit-portfolio/icefit-portfolio.php:337
+#: ../functions/icefit-slides/icefit-slides.php:79
+msgid "Category"
+msgstr "Catégorie"
+
+#: ../functions/icefit-contactform/icefit-contactform.php:26
+#: ../functions/icefit-contactform/icefit-contactform.php:95
+msgid "Name:"
+msgstr "Nom :"
+
+#: ../functions/icefit-contactform/icefit-contactform.php:29
+#: ../functions/icefit-contactform/icefit-contactform.php:98
+msgid "Email:"
+msgstr "Email :"
+
+#: ../functions/icefit-contactform/icefit-contactform.php:32
+#: ../functions/icefit-contactform/icefit-contactform.php:101
+msgid "Phone:"
+msgstr "Téléphone :"
+
+#: ../functions/icefit-contactform/icefit-contactform.php:35
+#: ../functions/icefit-contactform/icefit-contactform.php:104
+msgid "Subject:"
+msgstr "Sujet :"
+
+#: ../functions/icefit-contactform/icefit-contactform.php:38
+#: ../functions/icefit-contactform/icefit-contactform.php:107
+msgid "Message:"
+msgstr "Message :"
+
+#: ../functions/icefit-contactform/icefit-contactform.php:40
+#: ../functions/icefit-contactform/icefit-contactform.php:109
+msgid "Send"
+msgstr "Envoyer"
+
+#: ../functions/icefit-contactform/icefit-contactform.php:57
+#: ../functions/icefit-contactinfo/icefit-contactinfo.php:84
+msgid "Contact Form"
+msgstr "Formulaire de Contact"
+
+#: ../functions/icefit-contactform/icefit-contactform.php:58
+msgid "IceFit Contact Form"
+msgstr "IceFit Contact Form"
+
+#: ../functions/icefit-contactform/icefit-contactform.php:63
+msgid "Contact Us"
+msgstr "Nous Contacter"
+
+#: ../functions/icefit-contactform/icefit-contactform.php:164
+msgid "Please enter your name."
+msgstr "Veuillez entrer votre nom."
+
+#: ../functions/icefit-contactform/icefit-contactform.php:165
+msgid "Please enter your E-Mail address."
+msgstr "Veuillez entrer votre adresse email."
+
+#: ../functions/icefit-contactform/icefit-contactform.php:166
+msgid "Please enter a valid E-Mail address."
+msgstr "Veuillez entrer une adresse email valide."
+
+#: ../functions/icefit-contactform/icefit-contactform.php:167
+msgid "Please enter your message."
+msgstr "Veuillez entrer votre message."
+
+#: ../functions/icefit-contactform/icefit-contactform.php:168
+msgid "Thank you. Your message has been sent successfully."
+msgstr "Merci, votre message a bien été envoyé."
+
+#: ../functions/icefit-contactform/icefit-contactform.php:169
+msgid "Sorry, an unexpected error occurred while trying to send your message."
+msgstr ""
+"Une erreur s'est produite lors de la tentative d'envoi de votre message."
+
+#: ../functions/icefit-contactinfo/icefit-contactinfo.php:18
+msgid "Display your contact info."
+msgstr "Afficher vos coordonnées."
+
+#: ../functions/icefit-contactinfo/icefit-contactinfo.php:19
+msgid "IceFit Contact Info"
+msgstr "IceFit Contact Info"
+
+#: ../functions/icefit-contactinfo/icefit-contactinfo.php:24
+msgid "Get in touch"
+msgstr "Contactez nous"
+
+#: ../functions/icefit-contactinfo/icefit-contactinfo.php:36
+msgid "Address"
+msgstr "Adresse"
+
+#: ../functions/icefit-contactinfo/icefit-contactinfo.php:40
+msgid "Phone"
+msgstr "Téléphone"
+
+#: ../functions/icefit-contactinfo/icefit-contactinfo.php:44
+msgid "Email"
+msgstr "Email"
+
+#: ../functions/icefit-contactinfo/icefit-contactinfo.php:48
+msgid "Contact Form Link"
+msgstr "Lien vers le formulaire de contact"
+
+#: ../functions/icefit-features/icefit-features.php:17
+#: ../functions/icefit-features/icefit-features.php:19
+#: ../functions/icefit-features/icefit-features.php:241
+msgid "Features"
+msgstr "Mises en avant"
+
+#: ../functions/icefit-features/icefit-features.php:18
+#: ../functions/icefit-features/icefit-features.php:74
+msgid "Feature"
+msgstr "Mise en avant"
+
+#: ../functions/icefit-features/icefit-features.php:20
+msgid "All Features"
+msgstr "Toutes les mises en avant"
+
+#: ../functions/icefit-features/icefit-features.php:21
+#: ../functions/icefit-partners/icefit-partners.php:21
+#: ../functions/icefit-portfolio/icefit-portfolio.php:26
+#: ../functions/icefit-slides/icefit-slides.php:21
+#: ../functions/icefit-testimonials/icefit-testimonials.php:21
+msgid "Add New"
+msgstr "Ajouter"
+
+#: ../functions/icefit-features/icefit-features.php:22
+msgid "Add New Feature"
+msgstr "Ajouter une nouvelle mise en avant"
+
+#: ../functions/icefit-features/icefit-features.php:23
+msgid "Edit Feature"
+msgstr "Editer une mise en avant"
+
+#: ../functions/icefit-features/icefit-features.php:24
+msgid "New Feature"
+msgstr "Nouvelle mise en avant"
+
+#: ../functions/icefit-features/icefit-features.php:25
+msgid "View Feature"
+msgstr "Voir la mise en avant"
+
+#: ../functions/icefit-features/icefit-features.php:26
+msgid "Features Archive"
+msgstr "Archives des mises en avant"
+
+#: ../functions/icefit-features/icefit-features.php:27
+msgid "Search Features"
+msgstr "Recherche parmi les mises en avant"
+
+#: ../functions/icefit-features/icefit-features.php:28
+msgid "No Feature Found"
+msgstr "Aucune mise en avant trouvée"
+
+#: ../functions/icefit-features/icefit-features.php:29
+msgid "No Feature found in Trash"
+msgstr "Aucune mise en avant trouvée dans la corbeille"
+
+#: ../functions/icefit-features/icefit-features.php:47
+msgid "Icon"
+msgstr "Icône"
+
+#: ../functions/icefit-features/icefit-features.php:48
+#: ../functions/icefit-features/icefit-features.php:86
+#: ../functions/icefit-partners/icefit-partners.php:78
+#: ../functions/icefit-partners/icefit-partners.php:114
+#: ../functions/icefit-slides/icefit-slides.php:78
+#: ../functions/icefit-testimonials/icefit-testimonials.php:51
+#: ../functions/icefit-testimonials/icefit-testimonials.php:108
+msgid "URL"
+msgstr "URL"
+
+#: ../functions/icefit-features/icefit-features.php:49
+#: ../functions/icefit-features/icefit-features.php:80
+#: ../functions/icefit-testimonials/icefit-testimonials.php:114
+msgid "Content"
+msgstr "Description"
+
+#: ../functions/icefit-features/icefit-features.php:50
+#: ../functions/icefit-partners/icefit-partners.php:80
+#: ../functions/icefit-portfolio/icefit-portfolio.php:84
+#: ../functions/icefit-portfolio/icefit-portfolio.php:162
+#: ../functions/icefit-testimonials/icefit-testimonials.php:53
+msgid "Date"
+msgstr "Date"
+
+#: ../functions/icefit-features/icefit-features.php:217
+#: ../functions/icefit-features/icefit-features.php:297
+msgid "Learn More"
+msgstr "En savoir plus"
+
+#: ../functions/icefit-features/icefit-features.php:235
+msgid "Displays Features"
+msgstr "Affiche les mises en avant"
+
+#: ../functions/icefit-features/icefit-features.php:236
+msgid "IceFit Features"
+msgstr "IceFit Features"
+
+#: ../functions/icefit-features/icefit-features.php:251
+msgid "Count"
+msgstr "Nombre"
+
+#: ../functions/icefit-options/icefit-options.php:41
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: ../functions/icefit-options/icefit-options.php:113
+msgid ""
+"Warning: The PHP Tidy extension is not enabled on your server; this may "
+"prevent Icefit Improve Excerpt from working properly!"
+msgstr ""
+"Attention: L'extension PHP Tidy n'est pas activée sur votre serveur; cela "
+"risque d'empêcher Icefit Improved Excerpt de fonctionner correctement!"
+
+#: ../functions/icefit-options/icefit-options.php:136
+msgid "Web Standards"
+msgstr "Standards Web"
+
+#: ../functions/icefit-options/icefit-options.php:142
+msgid "Google Webfonts"
+msgstr "Google Webfonts"
+
+#: ../functions/icefit-options/icefit-options.php:155
+msgid "Upload Image"
+msgstr "Télécharger une image"
+
+#: ../functions/icefit-options/icefit-options.php:156
+msgid "Remove"
+msgstr "Enlever"
+
+#: ../functions/icefit-options/icefit-options.php:157
+msgid "Default"
+msgstr "Par défaut"
+
+#: ../functions/icefit-options/icefit-options.php:181
+msgid "Import"
+msgstr "Importer"
+
+#: ../functions/icefit-options/settings.php:26
+#: ../functions/icefit-page-settings/icefit-page-settings.php:47
+#: ../functions/icefit-slides/icefit-slides.php:20
+msgid "All Slides"
+msgstr "Tous les slides"
+
+#: ../functions/icefit-options/settings.php:50
+msgid "Main settings"
+msgstr "Options de base"
+
+#: ../functions/icefit-options/settings.php:57
+msgid "Favicon"
+msgstr "Favicon"
+
+#: ../functions/icefit-options/settings.php:58
+msgid ""
+"Set your favicon. 16x16 or 32x32 pixels, either 8-bit or 24-bit colors. PNG "
+"(W3C standard), GIF, or ICO."
+msgstr ""
+"Ajoutez votre favicon. 16x16 ou 32x32 pixels, couleurs 8-bit ou 24-bit. PNG "
+"(standard du W3C), GIF, ou ICO."
+
+#: ../functions/icefit-options/settings.php:65
+msgid "Custom Header Code"
+msgstr "Code d'en-tête supplémentaire"
+
+#: ../functions/icefit-options/settings.php:66
+msgid ""
+"Paste your own custom code to be added in the page header (before the "
+"closing &lt;/head&gt; tag)."
+msgstr ""
+"Ajoutez votre propre code à ajouter dans l'en-tête de page (avant la balise "
+"fermante &lt;/head&gt;)."
+
+#: ../functions/icefit-options/settings.php:73
+msgid "Tracking Code"
+msgstr "Code de suivi"
+
+#: ../functions/icefit-options/settings.php:74
+msgid ""
+"Paste your own custom code to be added in the footer (i.e. Google Analytics "
+"tracking code, before the closing &lt;/body&gt; tag)."
+msgstr ""
+"Ajoutez votre propre code à ajouter au pied de page (tel que votre code de "
+"suivi Google Analytics, avant la balise fermante &lt;/body&gt;)."
+
+#: ../functions/icefit-options/settings.php:81
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: ../functions/icefit-options/settings.php:82
+msgid "Paste your custom CSS here"
+msgstr "Ajouter votre propre CSS ici"
+
+#: ../functions/icefit-options/settings.php:89
+msgid "Responsive mode"
+msgstr "Mode \"responsive\""
+
+#: ../functions/icefit-options/settings.php:90
+msgid "Turn this setting off if you want your site to be unresponsive."
+msgstr ""
+"Désactivez cette option pour que votre site ne soit plus \"responsive\" ."
+
+#: ../functions/icefit-options/settings.php:95
+#: ../functions/icefit-options/settings.php:655
+#: ../functions/icefit-options/settings.php:696
+#: ../functions/icefit-options/settings.php:708
+#: ../functions/icefit-options/settings.php:729
+#: ../functions/icefit-options/settings.php:831
+#: ../functions/icefit-options/settings.php:843
+#: ../functions/icefit-options/settings.php:855
+#: ../functions/icefit-options/settings.php:867
+#: ../functions/icefit-options/settings.php:1142
+#: ../functions/icefit-page-settings/icefit-page-settings.php:106
+msgid "On"
+msgstr "Activé"
+
+#: ../functions/icefit-options/settings.php:96
+#: ../functions/icefit-options/settings.php:656
+#: ../functions/icefit-options/settings.php:697
+#: ../functions/icefit-options/settings.php:709
+#: ../functions/icefit-options/settings.php:730
+#: ../functions/icefit-options/settings.php:832
+#: ../functions/icefit-options/settings.php:844
+#: ../functions/icefit-options/settings.php:856
+#: ../functions/icefit-options/settings.php:868
+#: ../functions/icefit-options/settings.php:1143
+#: ../functions/icefit-page-settings/icefit-page-settings.php:105
+msgid "Off"
+msgstr "Désactiver"
+
+#: ../functions/icefit-options/settings.php:105
+msgid "Main Styling"
+msgstr "Style"
+
+#: ../functions/icefit-options/settings.php:112
+msgid "Content Font"
+msgstr "Police du contenu"
+
+#: ../functions/icefit-options/settings.php:120
+msgid "Content Font Size"
+msgstr "Taille de caractère du contenu"
+
+#: ../functions/icefit-options/settings.php:121
+msgid "In px. Default is 12."
+msgstr "En pixels, 12 par défaut."
+
+#: ../functions/icefit-options/settings.php:128
+msgid "Layout"
+msgstr "Mise en page"
+
+#: ../functions/icefit-options/settings.php:129
+msgid "Choose between wide or boxed layout"
+msgstr "Choisissez entre le mode page ou large."
+
+#: ../functions/icefit-options/settings.php:134
+msgid "Wide"
+msgstr "Large"
+
+#: ../functions/icefit-options/settings.php:135
+msgid "Boxed"
+msgstr "Page"
+
+#: ../functions/icefit-options/settings.php:140
+msgid "Background Color (boxed layout)"
+msgstr "Couleur de fond (mise en page \"Page\" uniquement)"
+
+#: ../functions/icefit-options/settings.php:141
+msgid ""
+"Set a background color (for boxed layout - used as fallback only if an image "
+"is set below)"
+msgstr ""
+"Choisissez la couleur de fond (mise en page \"Page\" uniquement - ne sera "
+"utilisée qu'en cas de défaut d'image ci-dessous)"
+
+#: ../functions/icefit-options/settings.php:148
+msgid "Background Image (boxed layout)"
+msgstr "Image de fond (mise en page \"Page\" uniquement)"
+
+#: ../functions/icefit-options/settings.php:149
+msgid "Upload your own background (for boxed layout)"
+msgstr "Téléchargez votre propre image de fond (pour la mise en page \"Page\")"
+
+#: ../functions/icefit-options/settings.php:156
+msgid "Background Image Size (boxed layout)"
+msgstr "Taille de l'image de fond (mise en page \"Page\" uniquement)"
+
+#: ../functions/icefit-options/settings.php:162
+msgid "Default (auto)"
+msgstr "Par défaut (auto)"
+
+#: ../functions/icefit-options/settings.php:163
+msgid "Cover"
+msgstr "Cover (étirer et recouvrir entièrement)"
+
+#: ../functions/icefit-options/settings.php:168
+msgid "Background Image Repeat (boxed layout)"
+msgstr "Répétition de l'image de fond (mise en page \"Page\" uniquement)"
+
+#: ../functions/icefit-options/settings.php:174
+msgid "No Repeat"
+msgstr "No Repeat (Pas de répétition)"
+
+#: ../functions/icefit-options/settings.php:175
+msgid "Tile"
+msgstr "Tile (Carreler)"
+
+#: ../functions/icefit-options/settings.php:176
+msgid "Tile Horizontally"
+msgstr "Tile Horizontally (carrelage horizontale)"
+
+#: ../functions/icefit-options/settings.php:177
+msgid "Tile Vertically"
+msgstr "Tile Vertically (carrelage vertical)"
+
+#: ../functions/icefit-options/settings.php:182
+msgid "Background Image Position (boxed layout)"
+msgstr "Position de l'image de fond (mise en page \"Page\" uniquement)"
+
+#: ../functions/icefit-options/settings.php:188
+#: ../functions/icefit-options/settings.php:644
+#: ../functions/icefit-page-settings/icefit-page-settings.php:89
+msgid "Left"
+msgstr "Gauche"
+
+#: ../functions/icefit-options/settings.php:189
+msgid "Center"
+msgstr "Centre"
+
+#: ../functions/icefit-options/settings.php:190
+#: ../functions/icefit-options/settings.php:643
+#: ../functions/icefit-page-settings/icefit-page-settings.php:88
+msgid "Right"
+msgstr "Droite"
+
+#: ../functions/icefit-options/settings.php:195
+msgid "Background Image Attachment (boxed layout)"
+msgstr "Attachement de l'image de fond (mise en page \"Page\" uniquement)"
+
+#: ../functions/icefit-options/settings.php:201
+msgid "Scroll"
+msgstr "Scroll (défilement)"
+
+#: ../functions/icefit-options/settings.php:202
+msgid "Fixed"
+msgstr "Fixed (pas de défilement)"
+
+#: ../functions/icefit-options/settings.php:211
+msgid "Header Settings"
+msgstr "En tête"
+
+#: ../functions/icefit-options/settings.php:218
+#: ../functions/icefit-partners/icefit-partners.php:77
+msgid "Logo"
+msgstr "Logo"
+
+#: ../functions/icefit-options/settings.php:219
+msgid "Upload your own logo"
+msgstr "Téléchargez votre propre logo"
+
+#: ../functions/icefit-options/settings.php:226
+msgid "Site Title"
+msgstr "Titre du site"
+
+#: ../functions/icefit-options/settings.php:227
+msgid ""
+"Choose \"display title\" if you want to use a text-based title instead of an "
+"uploaded logo."
+msgstr ""
+"Choisissez \"Afficher le titre\" pour une version textuelle plutôt qu'un logo"
+
+#: ../functions/icefit-options/settings.php:232
+msgid "Use Logo"
+msgstr "Utiliser le logo"
+
+#: ../functions/icefit-options/settings.php:233
+msgid "Display Title"
+msgstr "Afficher le titre"
+
+#: ../functions/icefit-options/settings.php:238
+msgid "Site Title Font"
+msgstr "Police du titre"
+
+#: ../functions/icefit-options/settings.php:246
+msgid "Site Title Font Size"
+msgstr "Taille de caractère du titre"
+
+#: ../functions/icefit-options/settings.php:247
+msgid "Font size for the site title, in pixels (default to 21)"
+msgstr "Taille de caractère du titre, en pixels (21 par défaut)"
+
+#: ../functions/icefit-options/settings.php:254
+msgid "Site Title Font Color"
+msgstr "Couleur de texte du titre"
+
+#: ../functions/icefit-options/settings.php:255
+msgid "Font color for the site title, in hex (default to #444444)"
+msgstr "Couleur de texte du titre, en hexadécimal (#444444 par défaut)"
+
+#: ../functions/icefit-options/settings.php:262
+msgid "Header Layout"
+msgstr "Mise en page de l'en-tête"
+
+#: ../functions/icefit-options/settings.php:263
+msgid "Tagline and Custom HTML can be set below."
+msgstr ""
+"La mise en forme du slogan et le HTML personnalisé peuvent être modifiés ci-"
+"dessous."
+
+#: ../functions/icefit-options/settings.php:268
+msgid "Logo Left"
+msgstr "Logo à gauche"
+
+#: ../functions/icefit-options/settings.php:269
+msgid "Logo Center"
+msgstr "Logo au centre"
+
+#: ../functions/icefit-options/settings.php:270
+msgid "Logo left + Tagline"
+msgstr "Logo à gauche + Slogan"
+
+#: ../functions/icefit-options/settings.php:271
+msgid "Logo Left + Social Media"
+msgstr "Logo à gauche + Médias sociaux"
+
+#: ../functions/icefit-options/settings.php:272
+msgid "Logo Left + Custom HTML"
+msgstr "Logo à gauche + HTML personnalisé"
+
+#: ../functions/icefit-options/settings.php:277
+msgid "Tagline Font"
+msgstr "Police du slogan"
+
+#: ../functions/icefit-options/settings.php:285
+msgid "Tagline Font Size"
+msgstr "Taille de caractère du slogan"
+
+#: ../functions/icefit-options/settings.php:286
+msgid "Font size for the tagline, in pixels (default to 16)"
+msgstr "Taille de caractère du slogan en pixels (16 par défaut)"
+
+#: ../functions/icefit-options/settings.php:293
+msgid "Tagline Font Color"
+msgstr "Couleur du text du slogan"
+
+#: ../functions/icefit-options/settings.php:294
+msgid "Font color for the tagline, in hex (default to #707070)"
+msgstr "Couleur du text du slogan, en hexadécimal (#707070 par défaut)"
+
+#: ../functions/icefit-options/settings.php:301
+msgid "Header Custom HTML"
+msgstr "HTML personnalisé pour l'en-tête"
+
+#: ../functions/icefit-options/settings.php:309
+msgid "Header Top Padding"
+msgstr "Marge interne au dessus l'en-tête (padding-top)"
+
+#: ../functions/icefit-options/settings.php:310
+msgid ""
+"Adjust the padding top value for the header area, in pixels (default to 25)"
+msgstr ""
+"Ajustez la valeur \"padding-top\" de l'en-tête, en pixels (25 par défaut)"
+
+#: ../functions/icefit-options/settings.php:317
+msgid "Header Bottom Padding"
+msgstr "Marge interne sous l'en-tête (padding-bottom)"
+
+#: ../functions/icefit-options/settings.php:318
+msgid ""
+"Adjust the padding bottom value for the header area, in pixels (default to "
+"25)"
+msgstr ""
+"Ajustez la valeur \"padding-bottom\" de l'en-tête, en pixels (25 par défaut)"
+
+#: ../functions/icefit-options/settings.php:325
+#: ../functions/icefit-page-settings/icefit-page-settings.php:65
+msgid "Sticky Header"
+msgstr "En-tête fixe"
+
+#: ../functions/icefit-options/settings.php:331
+#: ../functions/icefit-page-settings/icefit-page-settings.php:71
+msgid "Normal Header Only"
+msgstr "En-tête normale uniquement"
+
+#: ../functions/icefit-options/settings.php:332
+#: ../functions/icefit-page-settings/icefit-page-settings.php:72
+msgid "Sticky Header on scroll"
+msgstr "En-tête fixe selon le défilement"
+
+#: ../functions/icefit-options/settings.php:333
+#: ../functions/icefit-page-settings/icefit-page-settings.php:73
+msgid "Sticky Navbar on scroll"
+msgstr "Menu fixe selon le défilement"
+
+#: ../functions/icefit-options/settings.php:334
+#: ../functions/icefit-page-settings/icefit-page-settings.php:74
+msgid "Sticky Navbar on scroll + Logo"
+msgstr "Menu fixe selon le défilement + Logo"
+
+#: ../functions/icefit-options/settings.php:335
+#: ../functions/icefit-page-settings/icefit-page-settings.php:75
+msgid "Sticky Header Only"
+msgstr "En-tête fixe uniquement"
+
+#: ../functions/icefit-options/settings.php:336
+#: ../functions/icefit-page-settings/icefit-page-settings.php:76
+msgid "Sticky Navbar Only"
+msgstr "Menu fixe uniquement"
+
+#: ../functions/icefit-options/settings.php:337
+#: ../functions/icefit-page-settings/icefit-page-settings.php:77
+msgid "Sticky Navbar Only + Logo"
+msgstr "Menu fixe uniquement + Logo"
+
+#: ../functions/icefit-options/settings.php:338
+#: ../functions/icefit-page-settings/icefit-page-settings.php:78
+msgid "No Header"
+msgstr "Pas d'en-tête"
+
+#: ../functions/icefit-options/settings.php:347
+msgid "Navbar Layout"
+msgstr "Style du menu"
+
+#: ../functions/icefit-options/settings.php:354
+msgid "Menu Layout"
+msgstr "Mise en page du menu"
+
+#: ../functions/icefit-options/settings.php:355
+msgid "\"Left + Social media\" looks best with no more than 5 icons."
+msgstr "\"Gauche + Médias sociaux\" rend mieux avec 5 icônes ou moins."
+
+#: ../functions/icefit-options/settings.php:360
+msgid "Left + Search"
+msgstr "Gauche + champs de recherche"
+
+#: ../functions/icefit-options/settings.php:361
+msgid "Left No Search"
+msgstr "Gauche sans champs de recherche"
+
+#: ../functions/icefit-options/settings.php:362
+msgid "Center No Search"
+msgstr "Centré sans champs de recherche"
+
+#: ../functions/icefit-options/settings.php:363
+msgid "Left + Social Media"
+msgstr "Gauche + Médias sociaux"
+
+#: ../functions/icefit-options/settings.php:368
+msgid "Menu Font"
+msgstr "Police du menu"
+
+#: ../functions/icefit-options/settings.php:376
+msgid "Menu Font Size"
+msgstr "Taille de caractère du menu"
+
+#: ../functions/icefit-options/settings.php:377
+msgid "In px, default to 12."
+msgstr "En pixels, 12 par défaut."
+
+#: ../functions/icefit-options/settings.php:388
+msgid "Headings Styling"
+msgstr "Style de titres"
+
+#: ../functions/icefit-options/settings.php:395
+msgid "Headings Font"
+msgstr "Police des titres"
+
+#: ../functions/icefit-options/settings.php:396
+msgid "Choose a font for headings"
+msgstr "Choisissez une police pour les titres"
+
+#: ../functions/icefit-options/settings.php:403
+msgid "H1 font size"
+msgstr "Taille de caractère des titres H1"
+
+#: ../functions/icefit-options/settings.php:404
+#: ../functions/icefit-options/settings.php:500
+msgid "In px. Default = 21."
+msgstr "En pixels, 21 par défaut."
+
+#: ../functions/icefit-options/settings.php:411
+msgid "H1 font color"
+msgstr "Couleur du texte des titres H1"
+
+#: ../functions/icefit-options/settings.php:419
+msgid "H2 font size"
+msgstr "Taille de caractère des titres H2"
+
+#: ../functions/icefit-options/settings.php:420
+msgid "In px. Default = 18."
+msgstr "En pixels, 18 par défaut."
+
+#: ../functions/icefit-options/settings.php:427
+msgid "H2 font color"
+msgstr "Couleur du texte des titres H2"
+
+#: ../functions/icefit-options/settings.php:435
+msgid "H3 font size"
+msgstr "Taille de caractère des titres H3"
+
+#: ../functions/icefit-options/settings.php:436
+#: ../functions/icefit-options/settings.php:516
+msgid "In px. Default = 16."
+msgstr "En pixels, 16 par défaut."
+
+#: ../functions/icefit-options/settings.php:443
+msgid "H3 font color"
+msgstr "Couleur du texte des titres H3"
+
+#: ../functions/icefit-options/settings.php:451
+msgid "H4 font size"
+msgstr "Taille de caractère des titres H4"
+
+#: ../functions/icefit-options/settings.php:452
+msgid "In px. Default = 14."
+msgstr "En pixels, 14 par défaut."
+
+#: ../functions/icefit-options/settings.php:459
+msgid "H4 font color"
+msgstr "Couleur du texte des titres H4"
+
+#: ../functions/icefit-options/settings.php:467
+msgid "H5 font size"
+msgstr "Taille de caractère des titres H5"
+
+#: ../functions/icefit-options/settings.php:468
+msgid "In px. Default = 13."
+msgstr "En pixels, 13 par défaut."
+
+#: ../functions/icefit-options/settings.php:475
+msgid "H5 font color"
+msgstr "Couleur du texte des titres H5"
+
+#: ../functions/icefit-options/settings.php:483
+msgid "H6 font size"
+msgstr "Taille de caractère des titres H6"
+
+#: ../functions/icefit-options/settings.php:484
+msgid "In px. Default = 12."
+msgstr "En pixels, 12 par défaut."
+
+#: ../functions/icefit-options/settings.php:491
+msgid "H6 font color"
+msgstr "Couleur du texte des titres H6"
+
+#: ../functions/icefit-options/settings.php:499
+msgid "Page Titles font size"
+msgstr "Taille de caractère des titres de pages"
+
+#: ../functions/icefit-options/settings.php:507
+msgid "Page Titles font color"
+msgstr "Couleur du texte des titres de pages"
+
+#: ../functions/icefit-options/settings.php:515
+msgid "Blogpost Titles font size"
+msgstr "Taille de caractère des titres d'articles"
+
+#: ../functions/icefit-options/settings.php:523
+msgid "Blogpost Titles font color"
+msgstr "Couleur du texte des titres de articles"
+
+#: ../functions/icefit-options/settings.php:535
+msgid "Slider Settings"
+msgstr "Slider"
+
+#: ../functions/icefit-options/settings.php:542
+msgid "Slider animation"
+msgstr "Animation du slider"
+
+#: ../functions/icefit-options/settings.php:548
+#: ../functions/icefit-slides/icefit-slides.php:18
+msgid "Slide"
+msgstr "Slide (défilement)"
+
+#: ../functions/icefit-options/settings.php:549
+msgid "Fade"
+msgstr "Fade (effacement)"
+
+#: ../functions/icefit-options/settings.php:554
+msgid "Slider delay"
+msgstr "Délai du slider"
+
+#: ../functions/icefit-options/settings.php:555
+msgid ""
+"Set the delay between slides, in milliseconds; default to 4000 ( = 4 seconds)"
+msgstr ""
+"Paramètrez le délai entre chaque slide, en millisecondes. 4000 par défaut "
+"( = 4 secondes) "
+
+#: ../functions/icefit-options/settings.php:562
+msgid "Animation speed"
+msgstr "Vitesse d'animation"
+
+#: ../functions/icefit-options/settings.php:563
+msgid ""
+"Set the animation speed, in milliseconds; default to 600 ( = 0.6 seconds)"
+msgstr ""
+"Paramètrez la vitesse des animations, en millisecondes. 600 par défaut ( = "
+"0,6 secondes) "
+
+#: ../functions/icefit-options/settings.php:570
+msgid "Slide direction"
+msgstr "Direction des slides"
+
+#: ../functions/icefit-options/settings.php:576
+msgid "Horizontal"
+msgstr "Horizontale"
+
+#: ../functions/icefit-options/settings.php:577
+msgid "Vertical"
+msgstr "Verticale"
+
+#: ../functions/icefit-options/settings.php:582
+msgid "Reverse animation direction"
+msgstr "Inverser la direction"
+
+#: ../functions/icefit-options/settings.php:588
+#: ../functions/icefit-options/settings.php:601
+#: ../functions/icefit-options/settings.php:620
+#: ../functions/icefit-page-settings/icefit-page-settings.php:123
+msgid "No"
+msgstr "Non"
+
+#: ../functions/icefit-options/settings.php:589
+#: ../functions/icefit-options/settings.php:600
+#: ../functions/icefit-options/settings.php:621
+#: ../functions/icefit-page-settings/icefit-page-settings.php:122
+msgid "Yes"
+msgstr "Oui"
+
+#: ../functions/icefit-options/settings.php:594
+msgid "Auto animate slideshow"
+msgstr "Animation automatique"
+
+#: ../functions/icefit-options/settings.php:595
+msgid ""
+"Animate the slideshow automatically. Set to false to only allow manual "
+"animation (i.e. when users click the slide navigation buttons)"
+msgstr ""
+"Le spider s'active automatiquement. Désactivez cette option pour ne "
+"permettre que l'animation manuelle (lorsque le visiteur clique sur les "
+"flèches de défilement)"
+
+#: ../functions/icefit-options/settings.php:606
+msgid "Init delay"
+msgstr "Délai avant initialisation"
+
+#: ../functions/icefit-options/settings.php:607
+msgid ""
+"You can optionally set a delay before the animation starts, in milliseconds; "
+"default to 0"
+msgstr ""
+"Vous pouvez ajouter un délai avant que le spider ne se mette en route, en "
+"millisecondes. 0 par défaut."
+
+#: ../functions/icefit-options/settings.php:614
+msgid "Randomize slides"
+msgstr "Mélanger les slides de façon aléatoire"
+
+#: ../functions/icefit-options/settings.php:630
+msgid "Blog settings"
+msgstr "Blog"
+
+#: ../functions/icefit-options/settings.php:637
+msgid "Blog Sidebar Side"
+msgstr "Position de la sidebar"
+
+#: ../functions/icefit-options/settings.php:638
+msgid ""
+"Select the side of the sidebar for the index and single posts of your blog."
+msgstr ""
+"Choisissez un côté pour placer la sidebar sur les page d'index et les "
+"articles du blog."
+
+#: ../functions/icefit-options/settings.php:649
+msgid "Show Page title on Blog Index Page"
+msgstr "Afficher le titre de la page sur la page principale du blog (index)"
+
+#: ../functions/icefit-options/settings.php:661
+msgid "Blog Index Content"
+msgstr "Contenu de la page principale du blog (index)"
+
+#: ../functions/icefit-options/settings.php:662
+msgid ""
+"Select what content should be displayed on blog index pages. The Icefit "
+"Improved Excerpt is capable of preserving some formatting tags (set below)."
+msgstr ""
+"Selectionnez le contenu à affecter sur les page d'index du blog. L'option "
+"\"Icefit Improved Excerpt\" est capable de conserver certaines balises HTML "
+"(à configurer ci-dessous)"
+
+#: ../functions/icefit-options/settings.php:667
+msgid "Full Content"
+msgstr "Contenu complet"
+
+#: ../functions/icefit-options/settings.php:668
+msgid "Default Excerpt"
+msgstr "Extrait par défaut (excerpt)"
+
+#: ../functions/icefit-options/settings.php:669
+msgid "Icefit Improved Excerpt"
+msgstr "Icefit Improved Excerpt"
+
+#: ../functions/icefit-options/settings.php:674
+msgid "Excerpt Lenght"
+msgstr "Longueur de l'extrait"
+
+#: ../functions/icefit-options/settings.php:675
+msgid "Set how many words an excerpt must contains (default: 55)"
+msgstr "La longueur de l'extrait, en nombre de mots (55 par défaut)"
+
+#: ../functions/icefit-options/settings.php:682
+msgid "Icefit Improved Excerpt: Tags to preserve"
+msgstr "Icefit Improved Excerpt: Balises à conserver"
+
+#: ../functions/icefit-options/settings.php:683
+msgid ""
+"Set which tags the Improved Excerpt generator should try to preserve, in "
+"this format: &lt;br&gt;&lt;p&gt;&lt;i&gt;&lt;em&gt;&lt;b&gt;&lt;a&gt;&lt;"
+"strong&gt;"
+msgstr ""
+"Choisissez quelle balises HTML le générateur d'\"Icefit Improved Excerpt\" "
+"doit tenter de conserver, en utilisant le format suivant: &lt;br&gt;&lt;p&gt;"
+"&lt;i&gt;&lt;em&gt;&lt;b&gt;&lt;a&gt;&lt;strong&gt;"
+
+#: ../functions/icefit-options/settings.php:690
+msgid "Activate slider on blog pages"
+msgstr "Activer le spider sur les pages du blog"
+
+#: ../functions/icefit-options/settings.php:691
+msgid "Enable slideshow on blog index pages."
+msgstr "Activer le spider sur les pages d'index du blog."
+
+#: ../functions/icefit-options/settings.php:702
+msgid "Activate slider on single blogpost pages"
+msgstr "Activer le spider sur les pages d'articles (single)"
+
+#: ../functions/icefit-options/settings.php:714
+msgid "Slides category for blog page"
+msgstr "Catégorie de slides pour les pages du blog"
+
+#: ../functions/icefit-options/settings.php:715
+msgid "Select which slides to use for the blog index slideshow."
+msgstr "Choisissez quels slides utiliser pour les page d'index du blog."
+
+#: ../functions/icefit-options/settings.php:723
+msgid "Show featured image in single post view"
+msgstr "Afficher l'image mise en avant sur les pages d'articles (single)"
+
+#: ../functions/icefit-options/settings.php:739
+msgid "Sidebars"
+msgstr "Sidebars"
+
+#: ../functions/icefit-options/settings.php:746
+msgid "Additional Sidebars"
+msgstr "Sidebars supplémentaires"
+
+#: ../functions/icefit-options/settings.php:747
+msgid ""
+"Enter names for your additional sidebars (one per line). You will then find "
+"them in Appearence > Widgets"
+msgstr ""
+"Entrez un nom pour chacune de vos nouvelles sidebars (une par ligne). Elle "
+"apparaîtrons dans Apparence > Widgets"
+
+#: ../functions/icefit-options/settings.php:754
+msgid "Sidebars Widgets Title"
+msgstr "Titres des widgets de la sidebar"
+
+#: ../functions/icefit-options/settings.php:762
+msgid "Sidebars Widgets Title Font Size"
+msgstr "Taille de caractères des titres des widgets"
+
+#: ../functions/icefit-options/settings.php:763
+msgid "In pixel. Default to 11."
+msgstr "En pixel, 11 par défaut."
+
+#: ../functions/icefit-options/settings.php:774
+msgid "Portfolio Settings"
+msgstr "Portfolio"
+
+#: ../functions/icefit-options/settings.php:781
+msgid "Main Portfolio Page"
+msgstr "Page principale du portfolio"
+
+#: ../functions/icefit-options/settings.php:787
+msgid "Portfolio Grid Only"
+msgstr "Gille du portfolio uniquement"
+
+#: ../functions/icefit-options/settings.php:788
+msgid "Page Content above Grid"
+msgstr "Contenu de la page au dessus de la grille"
+
+#: ../functions/icefit-options/settings.php:789
+msgid "Page Content below Grid"
+msgstr "Contenu de la page en dessous de la grille"
+
+#: ../functions/icefit-options/settings.php:795
+msgid "Portfolio entries Slug"
+msgstr "Slug des entrées du portfolio"
+
+#: ../functions/icefit-options/settings.php:796
+msgid ""
+"Warning: Using the same slug for portfolio entries and for your main "
+"portfolio page will cause conflicts! Note: When you change this setting, "
+"please go to Settings > Permalinks and hit \"Save Changes\" to update your "
+"permalink structure."
+msgstr ""
+"Attention: utiliser le même slug pour les entrées du portfolio et la page "
+"principale du portfolio créera des conflits! NB: lorsque vous changez cette "
+"options, veuillez vous rendre sur la page Paramètres > Permaliens et cliquez "
+"sur \"Sauvegarder les changements\" pour mettre à jour la structure de vos "
+"percalines."
+
+#: ../functions/icefit-options/settings.php:803
+msgid "Enable Sidebar for single portfolio entries"
+msgstr "Activer la sidebar pour les entrées du portfolio"
+
+#: ../functions/icefit-options/settings.php:809
+msgid "No sidebar"
+msgstr "Pas de sidebar"
+
+#: ../functions/icefit-options/settings.php:810
+msgid "Left Sidebar"
+msgstr "Sidebar à gauche"
+
+#: ../functions/icefit-options/settings.php:811
+msgid "Right Sidebar"
+msgstr "Sidebar à droite"
+
+#: ../functions/icefit-options/settings.php:816
+msgid "Select Sidebar for single portfolio entries"
+msgstr "Choisissez une sidebar pour les entrées du portfolio"
+
+#: ../functions/icefit-options/settings.php:817
+msgid ""
+"If you have just created new sidebars and cannot see them in this list, "
+"please reload this page."
+msgstr ""
+"Si vous venez de créer de nouvelles sidebars et qu'elle n'apparaissent pas "
+"ici, veuillez recharger cette page."
+
+#: ../functions/icefit-options/settings.php:825
+msgid "Display Date meta in single portfolio entries"
+msgstr "Afficher la date des entrées du portfolio"
+
+#: ../functions/icefit-options/settings.php:837
+msgid "Display Category meta in single portfolio entries"
+msgstr "Afficher les catégorie des entrées du portfolio"
+
+#: ../functions/icefit-options/settings.php:849
+msgid "Display Client meta in single portfolio entries"
+msgstr "Afficher le client des entrées du portfolio"
+
+#: ../functions/icefit-options/settings.php:861
+msgid "Display \"Related projects\" below portfolio entries"
+msgstr "Afficher les \"Projets similaires\" sous les entrées du portfolio"
+
+#: ../functions/icefit-options/settings.php:873
+msgid "\"Related projects\" section title"
+msgstr "Titre de la section \"Projets similaires\""
+
+#: ../functions/icefit-options/settings.php:886
+msgid "Footer Settings"
+msgstr "Pied de page"
+
+#: ../functions/icefit-options/settings.php:894
+msgid "Additional Footer Widget groups"
+msgstr "Groupes de widgets supplémentaires pour le pied de page"
+
+#: ../functions/icefit-options/settings.php:895
+msgid ""
+"Enter names for your additional widgetized footer (one per line). You will "
+"then find them in Appearence > Widgets"
+msgstr ""
+"Entrer un nom pour chaque groupe de widget supplémentaire (un par ligne). "
+"Ils apparaitrons dans Apparence > Widgets"
+
+#: ../functions/icefit-options/settings.php:902
+msgid "Footer Widgets Columns"
+msgstr "Colonnes des widgets du pied de page"
+
+#: ../functions/icefit-options/settings.php:908
+msgid "3 Columns"
+msgstr "3 colonnes"
+
+#: ../functions/icefit-options/settings.php:909
+msgid "4 Columns"
+msgstr "4 colonnes"
+
+#: ../functions/icefit-options/settings.php:914
+msgid "Footer Widgets Title Font"
+msgstr "Taille de caractères des titres des widgets du pied de page"
+
+#: ../functions/icefit-options/settings.php:922
+msgid "Footer Widgets Title Font Size"
+msgstr "Taille de caractère des titres des widgets du pied de page"
+
+#: ../functions/icefit-options/settings.php:923
+msgid "In pixel. Default to 12."
+msgstr "En pixel, 12 par défaut."
+
+#: ../functions/icefit-options/settings.php:930
+msgid "Footer Widgets Title Font Color"
+msgstr "Couleur du texte des titre des widgets du pied de page"
+
+#: ../functions/icefit-options/settings.php:931
+msgid "In hex. Default to #666666."
+msgstr "En hexadécimal, #666666 par défaut."
+
+#: ../functions/icefit-options/settings.php:938
+msgid "Footer note (Copyright line)"
+msgstr "Contenu du sous pied de page (ligne de copyright)"
+
+#: ../functions/icefit-options/settings.php:939
+msgid ""
+"Customize the copyright note at the bottom of your site - or leave it as is "
+"and give credits to the author :)<br />You can use the following dynamic "
+"tokens: %date%, %sitename%"
+msgstr ""
+"Personnalisez la note de copyright en bas de votre site - ou laissez la "
+"telle-quelle pour créditer l'auteur :)<br />Vous pouvez utiliser les "
+"variables suivantes: %date% et %sitename%"
+
+#: ../functions/icefit-options/settings.php:946
+msgid "Copyright start year"
+msgstr "Année de départ du copyright"
+
+#: ../functions/icefit-options/settings.php:947
+msgid ""
+"Enter the year this website was created to compute the copyright %date% "
+"token."
+msgstr ""
+"Entrez l'année de création de ce site pour calculer automatiquement la "
+"variable %date%."
+
+#: ../functions/icefit-options/settings.php:958
+#: ../functions/icefit-socialmedia/icefit-socialmedia.php:19
+msgid "Social Media"
+msgstr "Médias sociaux"
+
+#: ../functions/icefit-options/settings.php:965
+msgid "Facebook URL"
+msgstr "URL Facebook"
+
+#: ../functions/icefit-options/settings.php:966
+#: ../functions/icefit-options/settings.php:974
+#: ../functions/icefit-options/settings.php:982
+#: ../functions/icefit-options/settings.php:990
+#: ../functions/icefit-options/settings.php:998
+#: ../functions/icefit-options/settings.php:1006
+#: ../functions/icefit-options/settings.php:1014
+#: ../functions/icefit-options/settings.php:1022
+#: ../functions/icefit-options/settings.php:1030
+#: ../functions/icefit-options/settings.php:1038
+#: ../functions/icefit-options/settings.php:1046
+#: ../functions/icefit-options/settings.php:1054
+#: ../functions/icefit-options/settings.php:1062
+#: ../functions/icefit-options/settings.php:1070
+#: ../functions/icefit-options/settings.php:1078
+msgid "Make sure to enter a full URL (starting with http or https)"
+msgstr "Assurez vous d'entrer une URL complète (commençant par http ou https)"
+
+#: ../functions/icefit-options/settings.php:973
+msgid "Twitter URL"
+msgstr "URL Twitter"
+
+#: ../functions/icefit-options/settings.php:981
+msgid "Google Plus URL"
+msgstr "URL Google Plus"
+
+#: ../functions/icefit-options/settings.php:989
+msgid "Linkedin URL"
+msgstr "URL Linkedin"
+
+#: ../functions/icefit-options/settings.php:997
+msgid "Instagram URL"
+msgstr "URL Instagram"
+
+#: ../functions/icefit-options/settings.php:1005
+msgid "Pinterest URL"
+msgstr "URL Pinterest"
+
+#: ../functions/icefit-options/settings.php:1013
+msgid "Tumblr URL"
+msgstr "URL Tumblr"
+
+#: ../functions/icefit-options/settings.php:1021
+msgid "StumbleUpon URL"
+msgstr "URL Stumbleupon"
+
+#: ../functions/icefit-options/settings.php:1029
+msgid "Dribbble URL"
+msgstr "URL Dribbble"
+
+#: ../functions/icefit-options/settings.php:1037
+msgid "Behance URL"
+msgstr "URL Behance"
+
+#: ../functions/icefit-options/settings.php:1045
+msgid "Deviantart URL"
+msgstr "URL Deviantart"
+
+#: ../functions/icefit-options/settings.php:1053
+msgid "Flickr URL"
+msgstr "URL Flickr"
+
+#: ../functions/icefit-options/settings.php:1061
+msgid "Youtube URL"
+msgstr "URL Youtube"
+
+#: ../functions/icefit-options/settings.php:1069
+msgid "Vimeo URL"
+msgstr "URL Vimeo"
+
+#: ../functions/icefit-options/settings.php:1077
+msgid "Yelp URL"
+msgstr "URL Yelp"
+
+#: ../functions/icefit-options/settings.php:1085
+msgid "RSS Feed URL"
+msgstr "URL du flux RSS"
+
+#: ../functions/icefit-options/settings.php:1086
+msgid ""
+"Make sure to enter a full URL (starting with http or https). Your default "
+"RSS feed is at: "
+msgstr ""
+"Assurez vous d'entrer une URL complète (commençant par http ou https). "
+"L'adresse de votre flux RSS par défaut est : "
+
+#: ../functions/icefit-options/settings.php:1097
+msgid "404 Handling"
+msgstr "Gestion 404"
+
+#: ../functions/icefit-options/settings.php:1104
+msgid "404 Errors Handling"
+msgstr "Gestion des erreurs 404"
+
+#: ../functions/icefit-options/settings.php:1110
+msgid "Default template (404.php)"
+msgstr "Modèle par défaut (404.php)"
+
+#: ../functions/icefit-options/settings.php:1111
+msgid "Custom Redirect (set below)"
+msgstr "Redirection personnalisée (configurée ci-dessous)"
+
+#: ../functions/icefit-options/settings.php:1116
+msgid "404 Custom Redirect"
+msgstr "Redirection personnalisée des erreurs 404"
+
+#: ../functions/icefit-options/settings.php:1117
+msgid ""
+"Input any URL to redirect all caught 404 errors to. Please make sure to "
+"enter a full URL, starting with http or https."
+msgstr ""
+"Entrez une URL pour rediriger toutes les erreurs 404. Assurez vous d'entrez "
+"une URL complète, commençant par http ou https."
+
+#: ../functions/icefit-options/settings.php:1129
+msgid "Misc Settings"
+msgstr "Divers"
+
+#: ../functions/icefit-options/settings.php:1136
+msgid "Third party gallery implementation support"
+msgstr "Support de galleries tierce"
+
+#: ../functions/icefit-options/settings.php:1137
+msgid ""
+"Enable support for 3rd party plugins gallery display (such as Jetpack's "
+"tiled gallery) by disabling the theme's custom gallery implementation."
+msgstr ""
+"Active le support pour l'affichage des galleries par des plugins tiers (tel "
+"que la fonction Mosaïque d'image de Jetpack), en désactivant les spécifiques "
+"du thème."
+
+#: ../functions/icefit-options/settings.php:1148
+msgid "Webfonts subset"
+msgstr "Subsets des Webfonts"
+
+#: ../functions/icefit-options/settings.php:1149
+msgid ""
+"Loads webfonts with the chosen subset. Latin-ext improves support for "
+"special characters not included in the standard latin subset, especially "
+"used in Czech, Dutch, Polish and Turkish."
+msgstr ""
+"Charge les polices Webfonts avec le subset choisi. Latin-ext améliore le "
+"support des caractères spéciaux utilisées en Tchèque, Néerlandais, Polonais "
+"et Turc. "
+
+#: ../functions/icefit-options/settings.php:1154
+msgid "Latin"
+msgstr "Latin"
+
+#: ../functions/icefit-options/settings.php:1155
+msgid "Latin Extended"
+msgstr "Latin Extended"
+
+#: ../functions/icefit-options/settings.php:1164
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: ../functions/icefit-options/settings.php:1171
+msgid "Export Settings"
+msgstr "Exporter les paramètres"
+
+#: ../functions/icefit-options/settings.php:1172
+msgid ""
+"Copy this string to export all current settings (excluding uploaded images) "
+"to another site using SilverClean Pro. If you have just made changes to your "
+"settings, make sure to hit \"save all changes\" and reload this page."
+msgstr ""
+"Copiez ce code pour exporter tous les paramètres actuels (à l'exception des "
+"images téléchargées) vers un autre site utilisant Silverclean Pro. Si vous "
+"venez de faire des changements, assurez vous de les sauvegarder et rechargez "
+"cette page."
+
+#: ../functions/icefit-options/settings.php:1178
+msgid "Import Settings"
+msgstr "Importer des paramètres"
+
+#: ../functions/icefit-options/settings.php:1179
+msgid ""
+"To import your own settings from another site using Silverclean Pro, paste "
+"the export string here and click \"Import\". Warning: this will override all "
+"current settings (except uploaded images)."
+msgstr ""
+"Pour importer vos propres paramètres depuis un autre site utilisant "
+"Silverclean Pro, collez le code d'exportation ici en cliquez sur \"Importer"
+"\". Attention: ceci écrasera tous les paramètres actuels (à l'exception des "
+"images téléchargées)."
+
+#: ../functions/icefit-options/settings.php:1189
+msgid "Options Index"
+msgstr "Index des options"
+
+#: ../functions/icefit-options/settings.php:1196
+msgid "Option Index"
+msgstr "Index des options"
+
+#: ../functions/icefit-options/settings.php:1197
+msgid ""
+"This index allows you to see every available settings at a glance, to help "
+"you find the setting you are looking for quickly and easily."
+msgstr ""
+"Cet index vous permet de voir toutes les options disponible d'un coup "
+"d'oeil, pour vous aidez à trouver facilement et rapidement le paramètre que "
+"vous recherchez."
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:34
+msgid "Default Footer"
+msgstr "Pied de page par défaut"
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:35
+msgid "No Widgetized Footer"
+msgstr "Pas de pied de page avec widgets"
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:59
+msgid "Icefit Page Settings"
+msgstr "Paramètre de page Icefit"
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:70
+msgid "Use Global Setting"
+msgstr "Utiliser le paramètre global"
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:82
+msgid "Sidebar Side"
+msgstr "Position de la sidebar"
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:87
+msgid "None"
+msgstr "Pas de transformation"
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:93
+msgid "Select Sidebar"
+msgstr "Selectionnez une sidebar"
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:100
+msgid "Slider"
+msgstr "Slider"
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:110
+#: ../functions/icefit-slides/icefit-slides.php:48
+msgid "Slides Category"
+msgstr "Catégorie des slides"
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:117
+msgid "Show Page Title"
+msgstr "Afficher le titre de la page"
+
+#: ../functions/icefit-page-settings/icefit-page-settings.php:127
+msgid "Select Footer"
+msgstr "Choisir un pied de page"
+
+#: ../functions/icefit-partners/icefit-partners.php:17
+#: ../functions/icefit-partners/icefit-partners.php:19
+msgid "Partners/Clients"
+msgstr "Partenaires/Clients"
+
+#: ../functions/icefit-partners/icefit-partners.php:18
+msgid "Partner/Client"
+msgstr "Partenaire/Client"
+
+#: ../functions/icefit-partners/icefit-partners.php:20
+msgid "All Partners/Clients"
+msgstr "Tous les Partenaires/Clients"
+
+#: ../functions/icefit-partners/icefit-partners.php:22
+msgid "Add New Partner/Client"
+msgstr "Ajouter un Partenaire/Client"
+
+#: ../functions/icefit-partners/icefit-partners.php:23
+msgid "Edit Partner/Client"
+msgstr "Editer ce Partenaire/Client"
+
+#: ../functions/icefit-partners/icefit-partners.php:24
+msgid "New Partner/Client"
+msgstr "Nouveau Partenaire/Client"
+
+#: ../functions/icefit-partners/icefit-partners.php:25
+msgid "View Partner/Client"
+msgstr "Voir ce Partenaire/Client"
+
+#: ../functions/icefit-partners/icefit-partners.php:26
+msgid "Partners/Clients Archive"
+msgstr "Archives des Partenaires/Clients"
+
+#: ../functions/icefit-partners/icefit-partners.php:27
+msgid "Search Partners/Clients"
+msgstr "Cherchez parmi les Partenaires/Clients"
+
+#: ../functions/icefit-partners/icefit-partners.php:28
+msgid "No Partner/Client Found"
+msgstr "Aucun Partenaire/Client trouvé"
+
+#: ../functions/icefit-partners/icefit-partners.php:29
+msgid "No Partner/Client found in Trash"
+msgstr "Aucun Partenaire/Client trouvé dans la corbeille"
+
+#: ../functions/icefit-partners/icefit-partners.php:47
+#: ../functions/icefit-partners/icefit-partners.php:57
+msgid "Partners/Clients Categories"
+msgstr "Catégories de Partenaires/Clients"
+
+#: ../functions/icefit-partners/icefit-partners.php:48
+msgid "Partners/Clients Category"
+msgstr "Catégorie de Partenaires/Clients"
+
+#: ../functions/icefit-partners/icefit-partners.php:49
+#: ../functions/icefit-portfolio/icefit-portfolio.php:53
+#: ../functions/icefit-slides/icefit-slides.php:49
+msgid "Search Category"
+msgstr "Chercher parmi les catégories"
+
+#: ../functions/icefit-partners/icefit-partners.php:51
+#: ../functions/icefit-portfolio/icefit-portfolio.php:55
+#: ../functions/icefit-slides/icefit-slides.php:51
+msgid "Parent Category"
+msgstr "Catégorie parente"
+
+#: ../functions/icefit-partners/icefit-partners.php:52
+#: ../functions/icefit-portfolio/icefit-portfolio.php:56
+#: ../functions/icefit-slides/icefit-slides.php:52
+msgid "Parent Category:"
+msgstr "Catégorie parente :"
+
+#: ../functions/icefit-partners/icefit-partners.php:53
+#: ../functions/icefit-portfolio/icefit-portfolio.php:57
+#: ../functions/icefit-slides/icefit-slides.php:53
+msgid "Edit Category"
+msgstr "Editer la catégorie"
+
+#: ../functions/icefit-partners/icefit-partners.php:54
+#: ../functions/icefit-portfolio/icefit-portfolio.php:58
+#: ../functions/icefit-slides/icefit-slides.php:54
+msgid "Update Category"
+msgstr "Mettre à jour la catégorie"
+
+#: ../functions/icefit-partners/icefit-partners.php:55
+#: ../functions/icefit-portfolio/icefit-portfolio.php:59
+#: ../functions/icefit-slides/icefit-slides.php:55
+msgid "Add New Category"
+msgstr "Ajouter une catégorie"
+
+#: ../functions/icefit-partners/icefit-partners.php:56
+#: ../functions/icefit-portfolio/icefit-portfolio.php:60
+#: ../functions/icefit-slides/icefit-slides.php:56
+msgid "New Category Name"
+msgstr "Nom de la nouvelle catégorie"
+
+#: ../functions/icefit-partners/icefit-partners.php:108
+msgid "Partner"
+msgstr "Partenaire"
+
+#: ../functions/icefit-partners/icefit-partners.php:259
+msgid "Displays Partners"
+msgstr "Affiche les partenaires"
+
+#: ../functions/icefit-partners/icefit-partners.php:260
+msgid "IceFit Partners"
+msgstr "Icefit Partners"
+
+#: ../functions/icefit-partners/icefit-partners.php:265
+msgid "Partners"
+msgstr "Partenaires"
+
+#: ../functions/icefit-partners/icefit-partners.php:286
+#: ../functions/icefit-testimonials/icefit-testimonials.php:277
+msgid "Auto Slide"
+msgstr "Défilement automatique"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:22
+#: ../functions/icefit-portfolio/icefit-portfolio.php:24
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:23
+msgid "Portfolio Entry"
+msgstr "Entrée du portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:25
+msgid "All Entries"
+msgstr "Toutes les entrées"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:27
+msgid "Add New Portfolio Entry"
+msgstr "Ajouter une nouvelle entrée au portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:28
+msgid "Edit Portfolio Entry"
+msgstr "Editer l'entrée du portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:29
+msgid "New Portfolio Entry"
+msgstr "Nouvelle entrée du portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:30
+msgid "View Portfolio Entry"
+msgstr "Voir l'entrée du portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:31
+msgid "Portfolio Archive"
+msgstr "Archive du portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:32
+msgid "Search Portfolio Entries"
+msgstr "Rechercher parmi les entrées du portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:33
+msgid "No Entry Found"
+msgstr "Aucune entrée trouvée"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:34
+msgid "No Entry found in Trash"
+msgstr "Aucune entrée trouvée dans la corbeille"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:51
+#: ../functions/icefit-portfolio/icefit-portfolio.php:61
+msgid "Portfolio Categories"
+msgstr "Catégories du portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:52
+msgid "Portfolio Category"
+msgstr "Catégorie du portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:81
+#: ../functions/icefit-portfolio/icefit-portfolio.php:168
+#: ../functions/icefit-testimonials/icefit-testimonials.php:48
+#: ../functions/icefit-testimonials/icefit-testimonials.php:90
+msgid "Client"
+msgstr "Client"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:82
+msgid "Project Date"
+msgstr "Date du projet"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:156
+msgid "Portfolio Item Information"
+msgstr "Informations sur l'entrée du portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:314
+msgid "Displays a list of recent portfolio"
+msgstr "Affiche une liste des derniers éléments du portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:315
+msgid "IceFit Portfolio"
+msgstr "IceFit Portfolio"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:320
+msgid "Recent Works"
+msgstr "Travaux récents"
+
+#: ../functions/icefit-portfolio/icefit-portfolio.php:333
+msgid "Number of items"
+msgstr "Nombre d'éléments"
+
+#: ../functions/icefit-slides/icefit-slides.php:17
+#: ../functions/icefit-slides/icefit-slides.php:19
+msgid "Slides"
+msgstr "Slides"
+
+#: ../functions/icefit-slides/icefit-slides.php:22
+msgid "Add New Slide"
+msgstr "Ajouter un nouveau slide"
+
+#: ../functions/icefit-slides/icefit-slides.php:23
+msgid "Edit Slide"
+msgstr "Editer le slide"
+
+#: ../functions/icefit-slides/icefit-slides.php:24
+msgid "New Slide"
+msgstr "Nouveau slide"
+
+#: ../functions/icefit-slides/icefit-slides.php:25
+msgid "View Slide"
+msgstr "Voir le slide"
+
+#: ../functions/icefit-slides/icefit-slides.php:26
+msgid "Slides Archive"
+msgstr "Archives des slides"
+
+#: ../functions/icefit-slides/icefit-slides.php:27
+msgid "Search Slides"
+msgstr "Rechercher parmi les slides"
+
+#: ../functions/icefit-slides/icefit-slides.php:28
+msgid "No Slide Found"
+msgstr "Aucun slide trouvé"
+
+#: ../functions/icefit-slides/icefit-slides.php:29
+msgid "No Slide found in Trash"
+msgstr "Aucun slide trouvé dans la corbeille"
+
+#: ../functions/icefit-slides/icefit-slides.php:47
+#: ../functions/icefit-slides/icefit-slides.php:57
+msgid "Slides Categories"
+msgstr "Catégories des slides"
+
+#: ../functions/icefit-slides/icefit-slides.php:77
+#: ../functions/icefit-testimonials/icefit-testimonials.php:47
+msgid "Thumbnail"
+msgstr "Aperçu de l'image"
+
+#: ../functions/icefit-slides/icefit-slides.php:151
+msgid "Slide Link"
+msgstr "Lien du slide"
+
+#: ../functions/icefit-slides/icefit-slides.php:157
+msgid "Caption"
+msgstr "Légende"
+
+#: ../functions/icefit-slides/icefit-slides.php:163
+msgid "Link"
+msgstr "Lien"
+
+#: ../functions/icefit-socialmedia/icefit-socialmedia.php:20
+msgid "IceFit Social Media"
+msgstr "IceFit Social Media"
+
+#: ../functions/icefit-socialmedia/icefit-socialmedia.php:25
+msgid "Follow Us"
+msgstr "Suivez Nous"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:17
+#: ../functions/icefit-testimonials/icefit-testimonials.php:19
+#: ../functions/icefit-testimonials/icefit-testimonials.php:268
+msgid "Testimonials"
+msgstr "Témoignages"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:18
+#: ../functions/icefit-testimonials/icefit-testimonials.php:52
+#: ../functions/icefit-testimonials/icefit-testimonials.php:84
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:20
+msgid "All Testimonials"
+msgstr "Tous les témoignages"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:22
+msgid "Add New Testimonial"
+msgstr "Ajouter un témoignage"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:23
+msgid "Edit Testimonial"
+msgstr "Editer le témoignage"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:24
+msgid "New Testimonial"
+msgstr "Nouveau témoignage"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:25
+msgid "View Testimonial"
+msgstr "Voir le témoignage"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:26
+msgid "Testimonials Archive"
+msgstr "Archives des témoignages"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:27
+msgid "Search Testimonials"
+msgstr "Recherche parmi les témoignages"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:28
+msgid "No Testimonial Found"
+msgstr "Aucun témoignage trouvé"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:29
+msgid "No Testimonial found in Trash"
+msgstr "Aucun témoignage trouvé dans la corbeille"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:49
+#: ../functions/icefit-testimonials/icefit-testimonials.php:96
+msgid "Position"
+msgstr "Poste"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:50
+#: ../functions/icefit-testimonials/icefit-testimonials.php:102
+msgid "Company"
+msgstr "Entreprise"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:262
+msgid "Displays Testimonials"
+msgstr "Affiche les témoignages"
+
+#: ../functions/icefit-testimonials/icefit-testimonials.php:263
+msgid "IceFit Testimonials"
+msgstr "IceFit Testimonials"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Comment"
+#~ msgstr "Commentaire"
+
+#~ msgid "Comments"
+#~ msgstr "Commentaires"
+
+#~ msgid "Comments Off"
+#~ msgstr "Commentaires fermés"
+
+#~ msgid "Posted in"
+#~ msgstr "Publié dans"
+
+#~ msgid "Category:"
+#~ msgstr "Catégorie : "
+
+#~ msgid "Client:"
+#~ msgstr "Client :"
+
+#~ msgid "Display"
+#~ msgstr "Affichage"
+
+#~ msgid "Features Categories"
+#~ msgstr "Catégories des mises en avant"
+
+#~ msgid "Features Category"
+#~ msgstr "Chercher parmi les catégories"
+
+#~ msgid "Reset Options"
+#~ msgstr "Remettre à zéro"
+
+#~ msgid "Save all Changes"
+#~ msgstr "Sauvegarder tous les changements"
+
+#~ msgid "BoldR Pro Settings"
+#~ msgstr "Configuration de BoldR Pro"
+
+#~ msgid "Main Color"
+#~ msgstr "Couleur principale"
+
+#~ msgid "Set the main color"
+#~ msgstr "Choisissez la couleur principale."
+
+#~ msgid "Content Font Color"
+#~ msgstr "Couleur du text du contenu"
+
+#~ msgid "Inside Background Color"
+#~ msgstr "Couleur de fond interne"
+
+#~ msgid ""
+#~ "Set a background color (for the inside wrapper - used as fallback only if "
+#~ "an image is set below)"
+#~ msgstr ""
+#~ "Choisissez une couleur de fond (pour le fond du contenu - utilisé "
+#~ "seulement en cas de défaut d'image ci-dessous)"
+
+#~ msgid "Inside Background Image"
+#~ msgstr "Image de fond interne"
+
+#~ msgid "Upload your own background (for the inside wrapper)"
+#~ msgstr "Téléchargez votre propre image de fond (pour le fond du contenu)"
+
+#~ msgid "Inside Background Image Repeat"
+#~ msgstr "Répétition de l'image de fond interne"
+
+#~ msgid "Inside Background Image Position"
+#~ msgstr "Position de l'image de fond interne"
+
+#~ msgid "Inside Background Image Attachment"
+#~ msgstr "Attachement de l'image de fond interne"
+
+#~ msgid "Menu Font Color"
+#~ msgstr "Couleur de caractère du menu"
+
+#~ msgid "Menu Text Transform"
+#~ msgstr "Transformation du texte du menu"
+
+#~ msgid "Uppercase"
+#~ msgstr "Majuscules"
+
+#~ msgid "Menu Item Hover: Box effect"
+#~ msgstr "Au survol : effet de \"boîte\""
+
+#~ msgid ""
+#~ "Make sure to pick a color other than white below if you set this to Off."
+#~ msgstr ""
+#~ "Assurez vous d'utiliser une couleur autre que blanc si vous désactivez "
+#~ "cette option!"
+
+#~ msgid "Menu Item Hover: Text color"
+#~ msgstr "Au survol: Couleur du texte"
+
+#~ msgid "Sub-menu background color"
+#~ msgstr "Couleur de fond des sous-menus"
+
+#~ msgid "Sub-menu text color"
+#~ msgstr "Couleur du texte des sous-menus"
+
+#~ msgid "Mobile Menu"
+#~ msgstr "Menu pour mobiles"
+
+#~ msgid "Choose the type of menu to use in responsive mode."
+#~ msgstr "Choisissez le type de menu à utiliser en mode responsive"
+
+#~ msgid "jQuery slide-in mobile menu"
+#~ msgstr "Menu mobile jQuery \"slide-in\""
+
+#~ msgid "Select dropdown"
+#~ msgstr "Menu déroulant"
+
+#~ msgid "In px. Default = 24."
+#~ msgstr "En pixels, 24 par défaut."
+
+#~ msgid "Slider width"
+#~ msgstr "Largeur du slider"
+
+#~ msgid "Normal"
+#~ msgstr "Normale"
+
+#~ msgid "Full Width"
+#~ msgstr "Largeur maximum"
+
+#~ msgid "Show navigation arrows"
+#~ msgstr "Afficher les flèches de défilement"
+
+#~ msgid "Show comment counter box"
+#~ msgstr "Afficher le compteur de commentaires"
+
+#~ msgid "On index page and single posts"
+#~ msgstr "Sur les pages d'index et des articles"
+
+#~ msgid "On index page only"
+#~ msgstr "Sur les pages d'index uniquement"
+
+#~ msgid "On single posts only"
+#~ msgstr "Sur les pages d'articles (single) uniquement"
+
+#~ msgid "Hide everywhere"
+#~ msgstr "Ne jamais afficher"
+
+#~ msgid "Show Tags on blog index"
+#~ msgstr "Afficher les tags sur la page principale du blog (index)"
+
+#~ msgid "Sidebars Widgets Title and Lists Font"
+#~ msgstr "Police des titres et listes de widgets de la sidebar"
+
+#~ msgid "Sidebars Widgets Title Font Color"
+#~ msgstr "Couleur du texte des titre des widgets"
+
+#~ msgid "Make sure to pick an appropriate color above if you turn this off."
+#~ msgstr ""
+#~ "Assurez vous d'utiliser une couleur appropriée ci-dessus si vous "
+#~ "désactivez cette option."
+
+#~ msgid "Sidebars Widgets Title Box Color"
+#~ msgstr "Couleur de l'encadrement des titres de widgets"
+
+#~ msgid "In hex. Default to #333333."
+#~ msgstr "En hexadécimal, #333333 par défaut."
+
+#~ msgid "Links Color in Sidebar Widgets"
+#~ msgstr "Couleur de liens des widgets de la sidebar"
+
+#~ msgid "In hex. Default to #707070."
+#~ msgstr "En hexadécimal, #707070 par défaut."
+
+#~ msgid "Links Color in Sidebar Widgets (Hovered)"
+#~ msgstr ""
+#~ "Couleur de liens des widgets de la sidebar (au passage de la souris)"
+
+#~ msgid "In hex. Default to #25CEFF."
+#~ msgstr "En hexadécimal, #25CEFF par défaut."
+
+#~ msgid "\"Related projects\" section mode"
+#~ msgstr "Mode de la section \"Projets similaires\""
+
+#~ msgid "Carousel"
+#~ msgstr "Carousel"
+
+#~ msgid "Carousel (auto slide)"
+#~ msgstr "Carousel (défilement auto)"
+
+#~ msgid "Grid"
+#~ msgstr "Grille"
+
+#~ msgid "Footer Widgets Management"
+#~ msgstr "Gestion des widgets du pied de page"
+
+#~ msgid "By row (one widgetized area)"
+#~ msgstr "Par ligne (une seule zone de widgets)"
+
+#~ msgid "By columns (one widgetized area per column)"
+#~ msgstr "Par colonnes (une zone de widget par colonne)"
+
+#~ msgid "Footer Border Top Width"
+#~ msgstr "Epaisseur de la bordure au somment du pied de page"
+
+#~ msgid "In pixel. Default to 6px"
+#~ msgstr "En pixel, 6 par défaut."
+
+#~ msgid "Footer Border Top Color"
+#~ msgstr "Couleur de la bordure au somment du pied de page"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Couleur de fond du pied de page"
+
+#~ msgid "Footer Content Color"
+#~ msgstr "Couleur du contenu du pied de page"
+
+#~ msgid "Footer Widgets Title and Lists Font"
+#~ msgstr "Police des titres et listes des widgets du pied de page"
+
+#~ msgid "In pixel. Default to 24."
+#~ msgstr "En pixels, 24 par défaut."
+
+#~ msgid "Links Color in Footer Widgets"
+#~ msgstr "Couleur des liens des widgets du pied de page"
+
+#~ msgid "Links Color in Footer Widgets (Hovered)"
+#~ msgstr "Couleur de liens des widgets du footer (au passage de la souris)"
+
+#~ msgid "Footer padding top (above widgets)"
+#~ msgstr "Marge interne du pied de page (au dessus des widgets)"
+
+#~ msgid "In pixel. Default to 50."
+#~ msgstr "En pixels, 50 par défaut."
+
+#~ msgid "Footer margin bottom (below widgets)"
+#~ msgstr "Marge inférieure du pied de page (sous les widgets)"
+
+#~ msgid "Sub Footer Background Color"
+#~ msgstr "Couleur de fond du sous-pied de page"
+
+#~ msgid "Sub Footer Content Color"
+#~ msgstr "Couleur du contenu du sous pied de page"
+
+#~ msgid "Sub Footer Font Size"
+#~ msgstr "Taille de caractère du sous pied de page"
+
+#~ msgid "In pixel. Default to 10."
+#~ msgstr "En pixel, 10 par défaut."
+
+#~ msgid "Sub Footer right content"
+#~ msgstr "Contenu de partie droite du sous pied de page"
+
+#~ msgid ""
+#~ "You can pick what menu to use in Appearence > Menu > Theme location "
+#~ "(under \"footer menu\")."
+#~ msgstr "Vous pouvez choisir quel menu utiliser dans Apparence > Menu."
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Custom text"
+#~ msgstr "Texte personnalisé"
+
+#~ msgid "Sub Footer right custom text"
+#~ msgstr "Texte personnalisé de la partie droite du sous pied de page"
+
+#~ msgid "You can use the following dynamic tokens: %date%, %sitename%."
+#~ msgstr "Vous pouvez utiliser les variables suivantes: %date% et %sitename%"
+
+#~ msgid "Autosliding carousels delay"
+#~ msgstr "Délai de rotation des carousels à défilement automatique"
+
+#~ msgid "In milliseconds, default to 2500."
+#~ msgstr "En millisecondes, 2500 par défaut."
+
+#~ msgid "Slide Settings"
+#~ msgstr "Paramètres du slider"
+
+#~ msgid "Slide type"
+#~ msgstr "Type de slide"
+
+#~ msgid "Video ID"
+#~ msgstr "ID de la viéeo"
+
+#~ msgid ""
+#~ "Only enter the ID of the video. If your video link is http://www.youtube."
+#~ "com/watch?v=XXXXXXXX or http://vimeo.com/XXXXXXXX, then XXXXXXXX is the "
+#~ "ID."
+#~ msgstr ""
+#~ "Entrez uniquement l'ID de la vidéo. SI le lien de votre vidéo est http://"
+#~ "www.youtube.com/watch?v=XXXXXXXX ou http://vimeo.com/XXXXXXXX, alors "
+#~ "XXXXXXXX est l'ID."
